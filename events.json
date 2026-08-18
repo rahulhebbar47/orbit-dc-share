@@ -1,0 +1,3721 @@
+{
+  "updated": "2026-08-17T20:57:53-04:00",
+  "events": [
+    {
+      "id": "usta-dc-tri-level-2026-08-17",
+      "name": "USTA Mid-Atlantic Washington D.C. Tri-Level (in progress)",
+      "start": "2026-08-17T18:00:00-04:00",
+      "end": "2026-09-13T23:59:00-04:00",
+      "venue": "USTA Washington D.C. district courts (varies by team)",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "unknown league dues plus USTA membership",
+      "link": "https://www.active.com/washington-dc/racquet-sports/tennis-leagues/usta-mid-atlantic-washington-d-c-washington-d-c-tri-level-2026",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "league"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "tennisdc-partner-program-2026-08-17",
+      "name": "TennisDC Non-Competitive Partner Program (always open)",
+      "start": "2026-08-17T19:00:00-04:00",
+      "end": null,
+      "venue": "Player-chosen public or club courts; regions include DC SE & SW, Dupont, Georgetown, Rock Creek, NE",
+      "neighborhood": "Navy Yard",
+      "cost": "paid",
+      "cost_detail": "unknown exact current partner-program price; no auto-billing; play 3 different partners in a month and the next month is free",
+      "link": "https://tennisdc.com/thanks/partner_flow",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "open-play"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "tennisdc-aug-tourney-2026-08-18",
+      "name": "TennisDC August singles tourney",
+      "start": "2026-08-18T00:00:00-04:00",
+      "end": null,
+      "venue": "Player-chosen courts (halfway meet-up suggested)",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "$29.95 for the first 15 players, then $34.95; late enrollment not allowed once it starts",
+      "link": "https://tennisdc.com/thanks/tournament_flow",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "alexandria-friendly-tennis-2026-08-18",
+      "name": "Friendly tennis in Alexandria, all levels welcome",
+      "start": "2026-08-18T18:30:00-04:00",
+      "end": "2026-08-18T20:00:00-04:00",
+      "venue": "Montgomery Park, 901 North Royal Street, Alexandria, VA",
+      "neighborhood": "Alexandria",
+      "cost": "free",
+      "cost_detail": "no fees; take a turn bringing a fresh can of balls",
+      "link": "https://www.meetup.com/alexandria-friendly-outdoor-tennis/events/cwjqztyjclbxb/",
+      "categories": [
+        "tennis",
+        "mixer"
+      ],
+      "tags": [
+        "tennis",
+        "open-play",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "cta-gw-ll-singles-2026-08-18",
+      "name": "CTA Tuesday GW Lower Level Singles (remaining summer sessions)",
+      "start": "2026-08-18T19:00:00-04:00",
+      "end": "2026-08-25T21:00:00-04:00",
+      "venue": "GW Tennis Center, 2100 Foxhall Rd NW (Mt. Vernon campus)",
+      "neighborhood": "Georgetown",
+      "cost": "paid",
+      "cost_detail": "2-week package $44; CTA membership required; summer page listed this league sold out",
+      "link": "https://www.capital-tennis.org/event-6668972",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "league"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "playyourcourt-social-meetup-2026-08-18",
+      "name": "PlayYourCourt Greater DC — social tennis outing",
+      "start": "2026-08-18T19:00:00-04:00",
+      "end": null,
+      "venue": "Location not specified yet — commenters suggest a court",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "Meetup RSVP is free; PlayYourCourt membership is $7.99/month Basic or $24.91/month billed annually for Plus",
+      "link": "https://www.meetup.com/washington-dc-tennis-lessons/",
+      "categories": [
+        "tennis",
+        "mixer"
+      ],
+      "tags": [
+        "tennis",
+        "open-play",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "cta-gw-doubles-2026-08-19",
+      "name": "CTA Wednesday GW Doubles League (remaining summer sessions)",
+      "start": "2026-08-19T19:00:00-04:00",
+      "end": "2026-08-26T21:00:00-04:00",
+      "venue": "GW Tennis Center, 2100 Foxhall Rd NW (Mt. Vernon campus)",
+      "neighborhood": "Georgetown",
+      "cost": "paid",
+      "cost_detail": "2-week package $24; CTA membership required; summer page listed this league sold out",
+      "link": "https://www.capital-tennis.org/event-6668976",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "league"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "saturday-tennis-club-2026-08-22",
+      "name": "Saturday Tennis Club — open play + coffee",
+      "start": "2026-08-22T07:00:00-04:00",
+      "end": null,
+      "venue": "Banneker Community Center tennis courts",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free",
+      "link": "https://www.meetup.com/saturday-tennis-club/",
+      "categories": [
+        "tennis",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "tennis",
+        "open-play",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "tennis-lovers-dmv-2026-08-22",
+      "name": "Tennis Lovers DMV 3+ weekend doubles",
+      "start": "2026-08-22T08:00:00-04:00",
+      "end": "2026-08-22T10:00:00-04:00",
+      "venue": "Herndon High School, 700 Bennett St, Herndon, VA",
+      "neighborhood": "unknown",
+      "cost": "free",
+      "cost_detail": "unknown; Meetup listing does not state a fee",
+      "link": "https://www.meetup.com/tennisloversdmv3plus/",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "open-play"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "wata-meetup-weekend-open-play-2026-08-22",
+      "name": "WATA Meetup — free weekend open play",
+      "start": "2026-08-22T09:30:00-04:00",
+      "end": null,
+      "venue": "Location given after $10 fee; Montgomery County first, then DC, then VA",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "one-time $10 Meetup fee covers play May–Oct 31, 2026; Saturdays and Sundays at 9:30am are free after that; pay by Zelle to richgott3@verizon.net, no cash at courts",
+      "link": "https://watatennis.org/meetup",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "open-play"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "washington-tennis-meetup-2026-08-26",
+      "name": "Washington Tennis Meetup — after-work recreation",
+      "start": "2026-08-26T19:00:00-04:00",
+      "end": null,
+      "venue": "Howard University Tennis Courts, 2400 9th St NW",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "optional Meetup chip-in for balls and admin; otherwise bring a few balls",
+      "link": "https://www.meetup.com/washington-tennis-meetup/",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "open-play"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "saturday-tennis-club-2026-08-29",
+      "name": "Saturday Tennis Club — open play + coffee",
+      "start": "2026-08-29T07:00:00-04:00",
+      "end": null,
+      "venue": "Banneker Community Center tennis courts",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free",
+      "link": "https://www.meetup.com/saturday-tennis-club/",
+      "categories": [
+        "tennis",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "tennis",
+        "open-play",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "cta-jtcc-all-level-singles-2026-08-30",
+      "name": "CTA JTCC Sunday Outdoor All-Level Singles",
+      "start": "2026-08-30T09:00:00-04:00",
+      "end": "2026-08-30T11:00:00-04:00",
+      "venue": "Junior Tennis Champions Center (JTCC), 5200 Campus Drive, College Park, MD",
+      "neighborhood": "College Park",
+      "cost": "paid",
+      "cost_detail": "1-week packages sold for this series ($20 / $39 / $58 depending on weeks); all skill levels",
+      "link": "https://www.capital-tennis.org/event-6699902",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "league",
+        "open-play"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "cta-drill-session-10-2026-08-31",
+      "name": "CTA Drill Session #10",
+      "start": "2026-08-31T18:30:00-04:00",
+      "end": "2026-08-31T20:30:00-04:00",
+      "venue": "Junior Tennis Champions Center (JTCC), 5200 Campus Drive, College Park, MD",
+      "neighborhood": "College Park",
+      "cost": "paid",
+      "cost_detail": "$45 for one session; 10 spaces left when fetched",
+      "link": "https://www.capital-tennis.org/event-6703716",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "clinic"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "tennisdc-fall-flex-2-2026-08-31",
+      "name": "TennisDC Fall Flex Season #2",
+      "start": "2026-08-31T19:00:00-04:00",
+      "end": "2026-10-25T23:59:00-04:00",
+      "venue": "Player-chosen courts across DC / NoVA / MoCo",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "$39.95 before kickoff (full price listed as $44.95)",
+      "link": "https://tennisdc.com/thanks/league_flow",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "tennisdc-fall-doubles-2026-09-01",
+      "name": "TennisDC Fall Doubles Season",
+      "start": "2026-09-01T00:00:00-04:00",
+      "end": "2026-11-01T23:59:00-04:00",
+      "venue": "Player-chosen courts across DC / NoVA / MoCo",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "$34.95 team enrollment or $24.95 for partner matching",
+      "link": "https://tennisdc.com/",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "alexandria-friendly-tennis-2026-09-01",
+      "name": "Friendly tennis in Alexandria, all levels welcome",
+      "start": "2026-09-01T18:30:00-04:00",
+      "end": "2026-09-01T20:00:00-04:00",
+      "venue": "Montgomery Park, 901 North Royal Street, Alexandria, VA",
+      "neighborhood": "Alexandria",
+      "cost": "free",
+      "cost_detail": "no fees; take a turn bringing a fresh can of balls",
+      "link": "https://www.meetup.com/alexandria-friendly-outdoor-tennis/",
+      "categories": [
+        "tennis",
+        "mixer"
+      ],
+      "tags": [
+        "tennis",
+        "open-play",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "saturday-tennis-club-2026-09-05",
+      "name": "Saturday Tennis Club — open play + coffee",
+      "start": "2026-09-05T07:00:00-04:00",
+      "end": null,
+      "venue": "Banneker Community Center tennis courts",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free",
+      "link": "https://www.meetup.com/saturday-tennis-club/",
+      "categories": [
+        "tennis",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "tennis",
+        "open-play",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "cta-fairfax-indoor-doubles-2026-09-05",
+      "name": "CTA Saturday Fairfax Indoor Doubles (Sep 5 only)",
+      "start": "2026-09-05T16:00:00-04:00",
+      "end": "2026-09-05T18:00:00-04:00",
+      "venue": "Fairfax Racquet Club",
+      "neighborhood": "Fairfax",
+      "cost": "paid",
+      "cost_detail": "$19 for the Sep 5 one-week package; 4 spots left when fetched; all skill levels",
+      "link": "https://www.capital-tennis.org/event-6644748",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "washington-tennis-meetup-2026-09-09",
+      "name": "Washington Tennis Meetup — after-work recreation",
+      "start": "2026-09-09T19:00:00-04:00",
+      "end": null,
+      "venue": "Howard University Tennis Courts, 2400 9th St NW",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "optional Meetup chip-in for balls and admin; otherwise bring a few balls",
+      "link": "https://www.meetup.com/washington-tennis-meetup/",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "open-play"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "wata-rock-creek-fall-2026-09-13",
+      "name": "WATA Rock Creek Fall co-ed team league (registration window)",
+      "start": "2026-09-13T16:00:00-04:00",
+      "end": "2026-11-01T18:00:00-04:00",
+      "venue": "Rock Creek Park Tennis Center, 5220 16th St NW",
+      "neighborhood": "Rock Creek",
+      "cost": "paid",
+      "cost_detail": "unknown; register as an individual and ; search listing said register by 9/6/2026",
+      "link": "https://watatennis.org/leagues/rock-creek-tennis-club-fall",
+      "categories": [
+        "tennis"
+      ],
+      "tags": [
+        "tennis",
+        "league"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "af-dc-august-rooftop-happy-hour-2026-08-18",
+      "name": "AF-DC: August Rooftop Happy Hour!",
+      "start": "2026-08-18T17:30:00-04:00",
+      "end": "2026-08-18T19:30:00-04:00",
+      "venue": "Bonne Vie Cafe and Bistro (rooftop garden)",
+      "neighborhood": "U Street",
+      "cost": "free",
+      "cost_detail": "unknown — Eventbrite RSVP required; August page does not list a price (prior AF-DC happy hours have been free with a drink)",
+      "link": "https://americasfuture.org/events/af-dc-august-rooftop-happy-hour/",
+      "categories": [
+        "mixer",
+        "civic"
+      ],
+      "tags": [
+        "happy-hour",
+        "mixer",
+        "networking"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "maga-meetup-cc-sports-pub-2026-08-19",
+      "name": "MAGA Meetup - CC Sports Pub!",
+      "start": "2026-08-19T19:30:00-04:00",
+      "end": null,
+      "venue": "Crystal City Sports Pub (third level, right side)",
+      "neighborhood": "Arlington",
+      "cost": "free",
+      "cost_detail": "no cover",
+      "link": "https://www.meetup.com/magadc/",
+      "categories": [
+        "mixer",
+        "civic"
+      ],
+      "tags": [
+        "happy-hour",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "conservative-happy-hour-tysons-2026-08-20",
+      "name": "Conservative Happy Hour in Tysons!",
+      "start": "2026-08-20T17:30:00-04:00",
+      "end": null,
+      "venue": "unknown",
+      "neighborhood": "Tysons",
+      "cost": "free",
+      "cost_detail": "unknown — Meetup private-group event; venue visible to members only",
+      "link": "https://www.meetup.com/dc-conservative-patriots/",
+      "categories": [
+        "mixer",
+        "civic"
+      ],
+      "tags": [
+        "happy-hour",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "lpnova-monthly-after-hours-2026-08-21",
+      "name": "LPNOVA Monthly After Hours",
+      "start": "2026-08-21T18:30:00-04:00",
+      "end": "2026-08-21T20:30:00-04:00",
+      "venue": "Rocklands Barbeque & Grilling Company",
+      "neighborhood": "Arlington",
+      "cost": "free",
+      "cost_detail": "no cover",
+      "link": "https://www.meetup.com/lpnova/",
+      "categories": [
+        "mixer",
+        "civic"
+      ],
+      "tags": [
+        "happy-hour",
+        "mixer",
+        "networking"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "coffee-with-conservatives-arlington-2026-08-22",
+      "name": "Coffee with Conservatives: Arlington",
+      "start": "2026-08-22T13:00:00-04:00",
+      "end": null,
+      "venue": "Restaurant of the Week (revealed after RSVP)",
+      "neighborhood": "Arlington",
+      "cost": "paid",
+      "cost_detail": "from $12.51 registration; food and drink not included",
+      "link": "https://www.eventbrite.com/e/coffee-with-conservatives-arlington-tickets-1822167264339",
+      "categories": [
+        "mixer",
+        "civic"
+      ],
+      "tags": [
+        "networking"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "coffee-with-conservatives-dc-2026-08-22",
+      "name": "Coffee with Conservatives: D.C.",
+      "start": "2026-08-22T14:00:00-04:00",
+      "end": null,
+      "venue": "Cafe of the Day (revealed after RSVP)",
+      "neighborhood": "Downtown",
+      "cost": "paid",
+      "cost_detail": "from $12.51 registration; food and drink not included",
+      "link": "https://www.eventbrite.com/e/coffee-with-conservatives-dc-tickets-1811285897879",
+      "categories": [
+        "mixer",
+        "civic"
+      ],
+      "tags": [
+        "networking"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "conservatives-social-club-food-festival-2026-08-29",
+      "name": "Conservatives Social Club at the Around the World Cultural Food Festival",
+      "start": "2026-08-29T11:00:00-04:00",
+      "end": null,
+      "venue": "Oronoco Bay Park",
+      "neighborhood": "Alexandria",
+      "cost": "free",
+      "cost_detail": "Meetup RSVP free; festival food/tickets unknown",
+      "link": "https://www.meetup.com/conservatives-social-club/events/315955405/",
+      "categories": [
+        "mixer",
+        "civic",
+        "nightlife"
+      ],
+      "tags": [
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "november-project-mon-2026-08-17",
+      "name": "November Project DC — Monday hills",
+      "start": "2026-08-17T06:30:00-04:00",
+      "end": "2026-08-17T07:10:00-04:00",
+      "venue": "Meridian Hill / Malcolm X Park (Joan of Arc statue)",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free; ~40-minute circuit + hills",
+      "link": "https://november-project.com/washington-dc/",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "volo-volleyball-pickup-mall-2026-08-17",
+      "name": "Volo volleyball pickup (all levels) — National Mall",
+      "start": "2026-08-17T18:00:00-04:00",
+      "end": "2026-08-17T19:30:00-04:00",
+      "venue": "National Mall — JFK Fields",
+      "neighborhood": "National Mall",
+      "cost": "paid",
+      "cost_detail": "unknown drop-in fee; listing showed 18 spots left the day of",
+      "link": "https://www.volosports.com/washington-dc",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "volo-vb-pickup-2026-08-17",
+      "name": "Volo volleyball pickup — National Mall",
+      "start": "2026-08-17T18:00:00-04:00",
+      "end": "2026-08-17T19:30:00-04:00",
+      "venue": "National Mall — JFK Fields",
+      "neighborhood": "National Mall",
+      "cost": "paid",
+      "cost_detail": "unknown drop-in fee; all-levels pickup, 18 spots listed when checked",
+      "link": "https://www.volosports.com/washington-dc",
+      "categories": [
+        "sports",
+        "mixer"
+      ],
+      "tags": [
+        "sports-league",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "volo-softball-dropin-2026-08-17",
+      "name": "Volo softball drop-in — West Potomac",
+      "start": "2026-08-17T18:00:00-04:00",
+      "end": "2026-08-17T20:30:00-04:00",
+      "venue": "National Mall — West Potomac",
+      "neighborhood": "National Mall",
+      "cost": "paid",
+      "cost_detail": "unknown drop-in fee; 10v10 coed, spots listed as open tonight",
+      "link": "https://www.volosports.com/washington-dc",
+      "categories": [
+        "sports",
+        "mixer"
+      ],
+      "tags": [
+        "sports-league",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "fray-vb-dupont-mon-2026-08-17",
+      "name": "DC Fray indoor volleyball — Dupont Monday (in play)",
+      "start": "2026-08-17T18:00:00-04:00",
+      "end": "2026-08-17T22:30:00-04:00",
+      "venue": "Our Lady Queen of The Americas",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "league dues (season in play; weeks 8/17, 8/24, 8/31, then 9/14); 6v6 mixed, social or athletic division",
+      "link": "https://dcfray.com/league/volleyball-dupont-lsu26-mon-our-lady/",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "pacers-way-to-half-2026-08-17",
+      "name": "DC Half Way to Half Party — Pacers 14th Street",
+      "start": "2026-08-17T18:30:00-04:00",
+      "end": "2026-08-17T20:00:00-04:00",
+      "venue": "Pacers Running 14th Street",
+      "neighborhood": "U Street",
+      "cost": "free",
+      "cost_detail": "free; 2-mile walk, 3-mile walk/jog, and 3/5/7-mile run options; Brooks giveaways",
+      "link": "https://runpacers.com/pages/social-runs-1",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "latin-mondays-lucky-bar-2026-08-17",
+      "name": "Latin Mondays — salsa, bachata, reggaeton (lesson + social)",
+      "start": "2026-08-17T19:00:00-04:00",
+      "end": "2026-08-17T22:00:00-04:00",
+      "venue": "Lucky Bar, 1221 Connecticut Ave NW",
+      "neighborhood": "Dupont",
+      "cost": "free",
+      "cost_detail": "listed as free / 21+; buy a drink or food; salsa lesson 7–8pm then social",
+      "link": "https://www.meetup.com/dc-cha-cha-bachata-cumbia-merengue-dance-meetup/events/315766478/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "dacha-navy-yard-monday-trivia-2026-08-17",
+      "name": "Monday Night Trivia at Dacha Navy Yard",
+      "start": "2026-08-17T19:00:00-04:00",
+      "end": "2026-08-17T21:00:00-04:00",
+      "venue": "Dacha Beer Garden Navy Yard, 79 Potomac Ave SE",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free to play; hosted by SPRK Trivia; series runs Mondays through Oct 26, 2026",
+      "link": "https://www.dachabeergarden.com/event/monday-night-trivia/",
+      "categories": [
+        "trivia"
+      ],
+      "tags": [
+        "trivia",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "tap99-monday-trivia-2026-08-17",
+      "name": "Trivia Mondays at Tap99",
+      "start": "2026-08-17T19:00:00-04:00",
+      "end": "2026-08-17T21:00:00-04:00",
+      "venue": "Tap99, 1250 Half St SE",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free; District Trivia; no trivia on Nationals Monday home games (tonight is a concert, not a game)",
+      "link": "https://tap-99.com/",
+      "categories": [
+        "trivia"
+      ],
+      "tags": [
+        "trivia",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "hi-lawn-trivia-2026-08-17",
+      "name": "Rooftop Trivia at Hi-Lawn",
+      "start": "2026-08-17T19:00:00-04:00",
+      "end": "2026-08-17T20:30:00-04:00",
+      "venue": "Hi-Lawn",
+      "neighborhood": "Union Market",
+      "cost": "free",
+      "cost_detail": "free to play, 21+; reservations encouraged, ; happy hour 3–7pm",
+      "link": "https://districtfray.com/event/rooftop-trivia-at-hi-lawn-34/",
+      "categories": [
+        "trivia",
+        "mixer"
+      ],
+      "tags": [
+        "trivia",
+        "mixer",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-con-candela-mondays-2026-08-17",
+      "name": "Salsa con Candela Mondays at Lucky Bar",
+      "start": "2026-08-17T19:30:00-04:00",
+      "end": "2026-08-18T01:00:00-04:00",
+      "venue": "Lucky Bar DC",
+      "neighborhood": "Dupont",
+      "cost": "free",
+      "cost_detail": "no cover all night; open-level salsa class at 8pm, social 9pm–1am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "renegade-monday-salsa-2026-08-17",
+      "name": "Monday salsa at The Renegade",
+      "start": "2026-08-17T20:00:00-04:00",
+      "end": "2026-08-18T00:00:00-04:00",
+      "venue": "The Renegade",
+      "neighborhood": "Arlington",
+      "cost": "paid",
+      "cost_detail": "$10 cover, 21+; class 8pm, DJ social from 9pm; happy hour 6–8pm",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "gatherdc-august-happy-hour-2026-08-18",
+      "name": "August Happy Hour with GatherDC",
+      "start": "2026-08-18T17:30:00-04:00",
+      "end": "2026-08-18T20:30:00-04:00",
+      "venue": "Shaw neighborhood (exact bar emailed the day before)",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "$5",
+      "link": "https://www.shalomdc.org/event/august-happy-hour-with-gatherdc/",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "happy-hour",
+        "mixer",
+        "networking"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "fray-vb-dupont-tue-2026-08-18",
+      "name": "DC Fray indoor volleyball — Dupont Tuesday (in play)",
+      "start": "2026-08-18T18:00:00-04:00",
+      "end": "2026-08-18T22:30:00-04:00",
+      "venue": "Our Lady Queen of The Americas",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "league dues (season in play; weeks 8/18, 8/25, 9/1, 9/8, 9/15); 6v6 mixed",
+      "link": "https://dcfray.com/league/volleyball-dupont-lsu26-tue-our-lady/",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "pacers-navy-yard-2026-08-18",
+      "name": "Pacers Navy Yard social run",
+      "start": "2026-08-18T18:30:00-04:00",
+      "end": null,
+      "venue": "Pacers Running Navy Yard",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free weekly store run, 3–6 mile options plus a 2-mile walking group; no signup",
+      "link": "https://runpacers.com/pages/social-runs-1",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "bonchon-trivia-2026-08-18",
+      "name": "Trivia Night at Bonchon Navy Yard",
+      "start": "2026-08-18T19:00:00-04:00",
+      "end": "2026-08-18T21:00:00-04:00",
+      "venue": "Bonchon Navy Yard",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free to play (food/drink purchase expected); District Trivia, Tuesdays 7pm; listed on the Navy Yard BID calendar",
+      "link": "https://navyyarddc.org/events",
+      "categories": [
+        "trivia",
+        "mixer"
+      ],
+      "tags": [
+        "trivia",
+        "game-night",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "tacos-bachata-bethesda-2026-08-18",
+      "name": "Tacos & Bachata Tuesdays at La Catrina",
+      "start": "2026-08-18T19:30:00-04:00",
+      "end": "2026-08-19T00:00:00-04:00",
+      "venue": "La Catrina Bar & Lounge",
+      "neighborhood": "Bethesda",
+      "cost": "free",
+      "cost_detail": "free; beginner bachata class ~7:45pm, social until midnight",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "get-together-salsa-esl-2026-08-18",
+      "name": "Get Together: Salsa & Bachata Dance Social",
+      "start": "2026-08-18T20:00:00-04:00",
+      "end": "2026-08-19T02:00:00-04:00",
+      "venue": "Eighteenth Street Lounge, 1230 9th St NW",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; 21+; class 8–9pm, social dancing 9pm–2am",
+      "link": "https://www.eventbrite.com/e/get-together-salsa-bachata-dance-social-tickets-1985455321313",
+      "categories": [
+        "dance"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "get-together-esl-2026-08-18",
+      "name": "Get Together at the Lounge — salsa & bachata social",
+      "start": "2026-08-18T20:00:00-04:00",
+      "end": "2026-08-19T02:00:00-04:00",
+      "venue": "Eighteenth Street Lounge",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "$10 class + social (8–9pm beginner salsa); $7 social only 9pm–2am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "new-columbia-swing-2026-08-18",
+      "name": "New Columbia Swing social — free beginner lesson",
+      "start": "2026-08-18T20:00:00-04:00",
+      "end": "2026-08-18T23:00:00-04:00",
+      "venue": "Josephine Butler Parks Center",
+      "neighborhood": "Columbia Heights",
+      "cost": "paid",
+      "cost_detail": "$15 at door or $12 preregister; $10 students/military; lesson 8pm, social 9pm",
+      "link": "https://www.meetup.com/swing-dance-dc/events/sqnfttyjclbxb/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "swing",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "november-project-wed-2026-08-19",
+      "name": "November Project DC — Lincoln Memorial stairs",
+      "start": "2026-08-19T06:20:00-04:00",
+      "end": null,
+      "venue": "Lincoln Memorial steps (Reflecting Pool)",
+      "neighborhood": "National Mall",
+      "cost": "free",
+      "cost_detail": "free; 6:20am main wave (also a 5:25am option); last Wednesday of the month is PR Day",
+      "link": "https://november-project.com/washington-dc/",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "dc-abortion-fund-pool-party-2026-08-19",
+      "name": "Rescheduled DC Abortion Fund pool party",
+      "start": "2026-08-19T17:00:00-04:00",
+      "end": "2026-08-19T20:00:00-04:00",
+      "venue": "1612 U Street NW",
+      "neighborhood": "U Street",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; 5–8pm",
+      "link": "https://www.popville.com/events/",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "eprc-wednesday-tap99-2026-08-19",
+      "name": "Every Person Run Club — Wednesday social run",
+      "start": "2026-08-19T18:30:00-04:00",
+      "end": null,
+      "venue": "Tap99 Navy Yard, 1250 Half St SE",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free; sign waiver first; easy ~3-mile loop then hang for drinks",
+      "link": "https://www.everypersonrunclub.com/weekly-group-runs",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "drc-wednesday-2026-08-19",
+      "name": "District Running Collective Wednesday run",
+      "start": "2026-08-19T18:30:00-04:00",
+      "end": "2026-08-19T19:30:00-04:00",
+      "venue": "Union Market Plaza",
+      "neighborhood": "Union Market",
+      "cost": "free",
+      "cost_detail": "free; RSVP required (opens Monday); 2–3+ miles in paced groups",
+      "link": "https://www.districtrunningcollective.com/rsvp",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "problem-child-trivia-2026-08-19",
+      "name": "Trivia Night at Problem Child",
+      "start": "2026-08-19T19:00:00-04:00",
+      "end": "2026-08-19T21:00:00-04:00",
+      "venue": "Problem Child, Navy Yard",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free to play; hosted by J Street Trivia every Wednesday 7–9pm",
+      "link": "https://www.problemchilddc.com/events",
+      "categories": [
+        "trivia"
+      ],
+      "tags": [
+        "trivia",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-con-candela-wed-2026-08-19",
+      "name": "Salsa con Candela Wednesdays at Public Bar Live",
+      "start": "2026-08-19T19:00:00-04:00",
+      "end": "2026-08-20T02:00:00-04:00",
+      "venue": "Public Bar Live",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "$5 cover; free salsa workshop 7–9pm (lessons at 8pm), social 9pm–2am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "hi-lawn-bingo-2026-08-19",
+      "name": "Rooftop Bingo at Hi-Lawn",
+      "start": "2026-08-19T19:00:00-04:00",
+      "end": null,
+      "venue": "Hi-Lawn",
+      "neighborhood": "Union Market",
+      "cost": "paid",
+      "cost_detail": "unknown — listed on DC Fray's Hi-Lawn series calendar for Wednesday Aug 19",
+      "link": "https://districtfray.com/event/rooftop-trivia-at-hi-lawn-34/",
+      "categories": [
+        "trivia",
+        "mixer"
+      ],
+      "tags": [
+        "game-night",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "saddle-up-swing-2026-08-19",
+      "name": "Saddle Up Swing — country swing + cowboy karaoke",
+      "start": "2026-08-19T19:30:00-04:00",
+      "end": "2026-08-19T23:30:00-04:00",
+      "venue": "Desert 5 Spot DC, 400 Morse St NE",
+      "neighborhood": "Union Market",
+      "cost": "free",
+      "cost_detail": "free; 18+; social dancing 7:30–9pm, live-band cowboy karaoke 9pm–12am",
+      "link": "https://dice.fm/event/bb9vnk-saddle-up-swing-19th-aug-desert-5-spot-dc-washington-tickets",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "swing",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "khaos-karaoke-dc9-2026-08-19",
+      "name": "Late Night Khaos Karaoke",
+      "start": "2026-08-19T22:00:00-04:00",
+      "end": null,
+      "venue": "DC9, 1940 9th St NW",
+      "neighborhood": "U Street",
+      "cost": "free",
+      "cost_detail": "free on Dice; weekly Wednesday karaoke",
+      "link": "https://dice.fm/event/923676-late-night-khaos-karaoke-19th-aug-dc9-washington-tickets",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "fyp-dc-happy-hour-sulod-2026-08-20",
+      "name": "FYP-DC happy hour at Sulod Cocktail Bar",
+      "start": "2026-08-20T17:30:00-04:00",
+      "end": null,
+      "venue": "Sulod Cocktail Bar",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "unknown; Partiful RSVP required",
+      "link": "https://partiful.com/e/xfrbi0DlrE5munZOFYAa",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "happy-hour",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "black-gov-tech-summer-mixer-2026-08-20",
+      "name": "Black Gov Tech Summer Tech Mixer @ 12 Stories",
+      "start": "2026-08-20T17:30:00-04:00",
+      "end": "2026-08-20T20:30:00-04:00",
+      "venue": "12 Stories, 75 District Square SW",
+      "neighborhood": "Wharf",
+      "cost": "free",
+      "cost_detail": "free general admission listed on aggregator; 5:30–8:30pm mixer",
+      "link": "https://www.eventbrite.com/d/dc--washington/august/",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "happy-hour",
+        "mixer",
+        "networking"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "dcstw-august-rooftop-happy-hour-2026-08-20",
+      "name": "DCSTW26 August Summer Happy Hour",
+      "start": "2026-08-20T18:00:00-04:00",
+      "end": "2026-08-20T20:00:00-04:00",
+      "venue": "Premium rooftop (revealed on registration)",
+      "neighborhood": "Arlington",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; beer, wine, and light food included; RSVP required",
+      "link": "https://luma.com/6l9hiop6",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "happy-hour",
+        "mixer",
+        "networking"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "admo-vibe-kalorama-2026-08-20",
+      "name": "AdMo Vibe summer concert on the Kalorama Park lawn",
+      "start": "2026-08-20T18:00:00-04:00",
+      "end": null,
+      "venue": "Kalorama Park, 1865 Kalorama Rd NW",
+      "neighborhood": "Adams Morgan",
+      "cost": "free",
+      "cost_detail": "free outdoor concert; last Thursday of the August series",
+      "link": "https://adamsmorgan.com/events/signature-events/admo-vibe",
+      "categories": [
+        "mixer",
+        "nightlife",
+        "arts"
+      ],
+      "tags": [
+        "arts",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "game-night-mocktails-2026-08-20",
+      "name": "Game Night and Mocktails — Play. Sip. Connect.",
+      "start": "2026-08-20T18:00:00-04:00",
+      "end": "2026-08-20T19:30:00-04:00",
+      "venue": "3260 R St NW",
+      "neighborhood": "Georgetown",
+      "cost": "paid",
+      "cost_detail": "unknown; PoPville listing 6:00–7:30pm",
+      "link": "https://www.popville.com/events/",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "game-night",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "pacers-banneker-track-2026-08-20",
+      "name": "Pacers DC track workout at Banneker",
+      "start": "2026-08-20T18:30:00-04:00",
+      "end": null,
+      "venue": "Benjamin Banneker Recreation Center track",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free Thursday track workout; part of Pacers / DC Half training",
+      "link": "https://www.dchalfmarathon.com/training",
+      "categories": [
+        "run",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "fray-pickleball-dupont-2026-08-20",
+      "name": "DC Fray indoor pickleball — Dupont Thursday (in play)",
+      "start": "2026-08-20T18:30:00-04:00",
+      "end": "2026-08-20T21:30:00-04:00",
+      "venue": "Our Lady Queen of The Americas",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "league dues (in play; weeks 8/20, 8/27, 9/3, 9/10)",
+      "link": "https://dcfray.com/league/pickleball-dupont-lsu26-thu-our-lady/",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "baila-thursdays-la-cosecha-2026-08-20",
+      "name": "Baila Thursdays salsa social",
+      "start": "2026-08-20T19:00:00-04:00",
+      "end": "2026-08-20T23:00:00-04:00",
+      "venue": "La Cosecha, 1280 4th St NE",
+      "neighborhood": "Union Market",
+      "cost": "paid",
+      "cost_detail": "$20 class+social online ($25 door); $15 social only; beginner lesson 7–8pm, open dancing 8–11pm",
+      "link": "https://unionmarketdc.com/event/baila-thursdays-bi-monthly-social/2026-08-06/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "problem-child-bingo-2026-08-20",
+      "name": "Bingo Thursdays at Problem Child",
+      "start": "2026-08-20T19:00:00-04:00",
+      "end": "2026-08-20T21:00:00-04:00",
+      "venue": "Problem Child, Navy Yard",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free to play; hosted by J Street Trivia every Thursday 7–9pm",
+      "link": "https://www.problemchilddc.com/events",
+      "categories": [
+        "trivia"
+      ],
+      "tags": [
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "baila-thursdays-2026-08-20",
+      "name": "Baila Thursdays bi-monthly salsa social",
+      "start": "2026-08-20T19:00:00-04:00",
+      "end": "2026-08-20T23:00:00-04:00",
+      "venue": "La Cosecha",
+      "neighborhood": "Union Market",
+      "cost": "paid",
+      "cost_detail": "class + social $20 online / $25 door; social only $15; beginner lesson 7–8pm, open dancing 8–11pm",
+      "link": "https://unionmarketdc.com/event/baila-thursdays-bi-monthly-social/2026-08-06/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "back-2-bachata-2026-08-20",
+      "name": "Back 2 Bachata at Sauf Haus",
+      "start": "2026-08-20T20:00:00-04:00",
+      "end": "2026-08-21T02:00:00-04:00",
+      "venue": "Sauf Haus Bier Hall & Garden",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "$10; bachata class 8–9pm, party 9pm–2am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "glen-echo-blues-2026-08-20",
+      "name": "Capital Blues Thursday dance",
+      "start": "2026-08-20T20:15:00-04:00",
+      "end": "2026-08-20T23:30:00-04:00",
+      "venue": "Glen Echo Park Ballroom Back Room",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "$10 DJ nights / $15 live band; lesson 8:15–9pm, social 9–11:30pm",
+      "link": "https://capitalblues.org/dances/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "transmission-stingray-2026-08-20",
+      "name": "Substrate presents DJ Stingray 313 at Transmission",
+      "start": "2026-08-20T21:00:00-04:00",
+      "end": "2026-08-21T02:00:00-04:00",
+      "venue": "Transmission, 1353 H St NE",
+      "neighborhood": "H Street",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; 18+; 9pm–2am",
+      "link": "https://app.discotech.me/events/38238813",
+      "categories": [
+        "dance",
+        "nightlife"
+      ],
+      "tags": [
+        "dance"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "volo-player-party-2026-08-21",
+      "name": "Volo Summer Player Party — Capitol Hill",
+      "start": "2026-08-21T18:00:00-04:00",
+      "end": "2026-08-21T20:00:00-04:00",
+      "venue": "PubKey",
+      "neighborhood": "Capitol Hill",
+      "cost": "free",
+      "cost_detail": "free beer party for Volo players; 6–8pm at PubKey",
+      "link": "https://www.volosports.com/discover/washington-dc?category=events&sports=event",
+      "categories": [
+        "sports",
+        "mixer"
+      ],
+      "tags": [
+        "sports-league",
+        "mixer",
+        "happy-hour"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "glen-echo-latin-2026-08-21",
+      "name": "Música Latin Dance Social at Glen Echo",
+      "start": "2026-08-21T19:30:00-04:00",
+      "end": "2026-08-22T00:30:00-04:00",
+      "venue": "Glen Echo Park",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "unknown — salsa lesson 7:30–8:15pm, bachata 8:15–9pm, social 9pm–12:30am",
+      "link": "https://glenechopark.org/events-calendar",
+      "categories": [
+        "dance"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "glen-echo-honky-tonk-2026-08-21",
+      "name": "Honky Tonk Dance with Agalisiga Mackey",
+      "start": "2026-08-21T19:30:00-04:00",
+      "end": "2026-08-21T22:30:00-04:00",
+      "venue": "Glen Echo Park",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "$22 advance / $27 same-day; beginner two-step lesson 7:30–8pm, dancing with the band 8–10:30pm",
+      "link": "https://glenechopark.org/dances",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "glen-echo-contra-2026-08-21",
+      "name": "Friday Night Contra Dance at Glen Echo",
+      "start": "2026-08-21T19:30:00-04:00",
+      "end": "2026-08-21T23:00:00-04:00",
+      "venue": "Glen Echo Park",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "unknown — lesson 7:30pm, social 8–11pm",
+      "link": "https://glenechopark.org/events-calendar",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-con-candela-fri-2026-08-21",
+      "name": "Salsa con Candela Fridays — bachata class + social",
+      "start": "2026-08-21T20:00:00-04:00",
+      "end": "2026-08-22T01:00:00-04:00",
+      "venue": "Generator Hotel / Hotel Rendale",
+      "neighborhood": "Adams Morgan",
+      "cost": "paid",
+      "cost_detail": "$10; bachata class 8pm, social 9pm–1am with DJ Diezel & DJ Zacarri",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "mr-brightside-2000s-dance-dc9-2026-08-21",
+      "name": "mr Brightside: 2000s dance party (indie rock edition)",
+      "start": "2026-08-21T22:00:00-04:00",
+      "end": null,
+      "venue": "DC9, 1940 9th St NW",
+      "neighborhood": "U Street",
+      "cost": "free",
+      "cost_detail": "Dice listed from free; 21+ dance party, not a concert",
+      "link": "https://dice.fm/event/wwm78p-mr-brightside-2000sdanceparties-indie-rockdance-edition-21st-aug-dc9-washington-tickets",
+      "categories": [
+        "dance"
+      ],
+      "tags": [
+        "dance"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "drc-saturday-2026-08-22",
+      "name": "District Running Collective Saturday run",
+      "start": "2026-08-22T06:30:00-04:00",
+      "end": "2026-08-22T10:30:00-04:00",
+      "venue": "Union Market Plaza",
+      "neighborhood": "Union Market",
+      "cost": "free",
+      "cost_detail": "free; RSVP required; 6:30am long run and 8:00am 3-mile beginner group",
+      "link": "https://www.districtrunningcollective.com/rsvp",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "dcrr-run-dmv-2026-08-22",
+      "name": "DC Road Runners — Run DMV Run",
+      "start": "2026-08-22T07:00:00-04:00",
+      "end": "2026-08-22T11:00:00-04:00",
+      "venue": "North Meade Street Park",
+      "neighborhood": "Arlington",
+      "cost": "free",
+      "cost_detail": "free, open to nonmembers; full route 18 miles with Metro bailouts after ~8 miles",
+      "link": "https://dcroadrunners.org/event/run-dmv-run/",
+      "categories": [
+        "run",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "bgt-kickball-tech-social-2026-08-22",
+      "name": "Black Gov Tech Kickball Tournament and Tech Social",
+      "start": "2026-08-22T12:00:00-04:00",
+      "end": "2026-08-22T15:00:00-04:00",
+      "venue": "The Fields at RFK Campus, 401 Oklahoma Ave NE",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "Eventbrite organizer listed from $23.18; co-ed teams of 8–10 or individual pairing",
+      "link": "https://www.eventbrite.com/o/8450739972",
+      "categories": [
+        "sports",
+        "mixer"
+      ],
+      "tags": [
+        "sports-league",
+        "mixer",
+        "networking"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "volo-y2k-day-2026-08-22",
+      "name": "Y2K Day at Club Volo — open play social",
+      "start": "2026-08-22T15:00:00-04:00",
+      "end": "2026-08-22T18:00:00-04:00",
+      "venue": "Club Volo National Landing",
+      "neighborhood": "National Landing",
+      "cost": "free",
+      "cost_detail": "free open-play social; Y2K fashion + volleyball",
+      "link": "https://www.volosports.com/washington-dc",
+      "categories": [
+        "sports",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "sports-league",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "posh-rosebar-taste-saturdays-2026-08-22",
+      "name": "Day Party SZN Taste Saturdays @ Rosebar",
+      "start": "2026-08-22T16:00:00-04:00",
+      "end": null,
+      "venue": "Rosebar Lounge",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "unknown; Posh listing for Sat Aug 22 (time not fully rendered)",
+      "link": "https://posh.vip/e/day-party-szn-taste-saturdays-rosebardc-2026-8-23-1-0",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "happy-hour"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "not-so-grand-prix-h-street-2026-08-22",
+      "name": "Not So Grand Prix",
+      "start": "2026-08-22T17:00:00-04:00",
+      "end": "2026-08-22T22:00:00-04:00",
+      "venue": "1354 H Street NE",
+      "neighborhood": "H Street",
+      "cost": "paid",
+      "cost_detail": "unknown; PoPville listing 5–10pm, same weekend as the real Grand Prix",
+      "link": "https://www.popville.com/events/",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "dancing-on-the-waterfront-sat-2026-08-22",
+      "name": "Dancing on the Waterfront Saturday social",
+      "start": "2026-08-22T17:00:00-04:00",
+      "end": "2026-08-22T21:00:00-04:00",
+      "venue": "Georgetown Waterfront Park — Fountain",
+      "neighborhood": "Georgetown",
+      "cost": "free",
+      "cost_detail": "free community event, $5 suggested donation; free class 5pm then salsa/bachata/kizomba/zouk social",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "can-i-kick-it-new-jack-city-2026-08-22",
+      "name": "CAN I KICK IT? outdoor movie: New Jack City",
+      "start": "2026-08-22T19:30:00-04:00",
+      "end": "2026-08-22T21:30:00-04:00",
+      "venue": "Sylvan Theater at the Washington Monument, Independence Ave SW & 15th St NW",
+      "neighborhood": "National Mall",
+      "cost": "free",
+      "cost_detail": "free; seating 7:30pm, film 8:30pm with live DJ soundtrack; RSVP at shaolinjazz.com",
+      "link": "https://www.popville.com/events/can-i-kick-it-featuring-new-jack-city-27681/",
+      "categories": [
+        "mixer",
+        "arts"
+      ],
+      "tags": [
+        "arts",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "clarendon-20s-30s-meetup-2026-08-22",
+      "name": "20s and 30s Going Out Group — Saturday meetup",
+      "start": "2026-08-22T20:00:00-04:00",
+      "end": "2026-08-22T23:00:00-04:00",
+      "venue": "unknown (Meetup says Clarendon meetup was moved; check listing)",
+      "neighborhood": "unknown",
+      "cost": "free",
+      "cost_detail": "free and 21+; RSVP on Meetup required",
+      "link": "https://www.meetup.com/20s-and-30s-going-out-group/events/280891110/",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "mixer",
+        "happy-hour"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "glen-echo-swing-dclx-2026-08-22",
+      "name": "DCLX Saturday swing dance",
+      "start": "2026-08-22T20:00:00-04:00",
+      "end": "2026-08-23T00:00:00-04:00",
+      "venue": "Glen Echo Park Spanish Ballroom",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "unknown — lesson 8pm, swing social 9pm–midnight",
+      "link": "https://glenechopark.org/events-calendar",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "swing",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "flash-zabiela-2026-08-22",
+      "name": "James Zabiela / Adi at Flash",
+      "start": "2026-08-22T22:00:00-04:00",
+      "end": null,
+      "venue": "Flash Nightclub, 645 Florida Ave NW",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; doors 10pm; three rooms",
+      "link": "https://www.flashdc.com/e/z0CTJRGpjC",
+      "categories": [
+        "dance",
+        "nightlife"
+      ],
+      "tags": [
+        "dance"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "peach-pit-90s-dance-dc9-2026-08-22",
+      "name": "Peach Pit: 90s Dance Party",
+      "start": "2026-08-22T23:00:00-04:00",
+      "end": "2026-08-23T03:00:00-04:00",
+      "venue": "DC9, 1940 9th St NW",
+      "neighborhood": "U Street",
+      "cost": "paid",
+      "cost_detail": "$5/$10 at the door; Dice from $7.21; 21+; doors 11pm",
+      "link": "https://dice.fm/event/l8kybw-peach-pit-90s-dance-party-22nd-aug-dc9-washington-tickets",
+      "categories": [
+        "dance"
+      ],
+      "tags": [
+        "dance"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "eprc-sunday-capitol-hill-2026-08-23",
+      "name": "Every Person Run Club — Sunday long run",
+      "start": "2026-08-23T08:00:00-04:00",
+      "end": null,
+      "venue": "Big League Performance & Rehab, 637 Pennsylvania Ave SE",
+      "neighborhood": "Capitol Hill",
+      "cost": "free",
+      "cost_detail": "free; Sunday long-run / 5-mile option; summer start listed as 8:00am (sometimes 7:00am)",
+      "link": "https://www.everypersonrunclub.com/weekly-group-runs",
+      "categories": [
+        "run",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "washington-folk-festival-2026-08-23",
+      "name": "Washington Folk Festival",
+      "start": "2026-08-23T12:00:00-04:00",
+      "end": "2026-08-23T19:00:00-04:00",
+      "venue": "Glen Echo Park, 7300 MacArthur Blvd, Glen Echo, MD",
+      "neighborhood": "unknown",
+      "cost": "free",
+      "cost_detail": "free (donations welcome); six stages, dancing, food trucks; parking limited",
+      "link": "https://fsgw.org/washington-folk-festival",
+      "categories": [
+        "dance",
+        "arts"
+      ],
+      "tags": [
+        "dance",
+        "arts"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "azure-day-party-ciel-2026-08-23",
+      "name": "AZURE Day Party DC w/ CHALANT",
+      "start": "2026-08-23T14:00:00-04:00",
+      "end": null,
+      "venue": "Ciel Rooftop at Marriott Capitol Hill",
+      "neighborhood": "Capitol Hill",
+      "cost": "paid",
+      "cost_detail": "$45.54 on Dice",
+      "link": "https://dice.fm/event/oeaddg-azure-day-party-dc-823-wchalant-23rd-aug-ciel-rooftop-at-marriott-capitol-hill-washington-tickets",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "happy-hour"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "flash-sunday-love-2026-08-23",
+      "name": "Sunday Love at Flash (wellness + bazaar + DJs)",
+      "start": "2026-08-23T14:45:00-04:00",
+      "end": null,
+      "venue": "Flash Nightclub, 645 Florida Ave NW",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; wellness 3–4pm, Love Bazaar 5–9pm, then DJs",
+      "link": "https://www.flashdc.com/e/TemHgicEVd",
+      "categories": [
+        "dance",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "dance",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "buga-suga-rb-party-2026-08-23",
+      "name": "TimaLikesMusic presents Buga Suga, a classic R&B party",
+      "start": "2026-08-23T21:00:00-04:00",
+      "end": null,
+      "venue": "Songbyrd Music House",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "Dice from $14.94",
+      "link": "https://dice.fm/event/yoxwwr-timalikesmusic-presents-buga-suga-a-classic-rb-party-23rd-aug-songbyrd-washington-dc-tickets",
+      "categories": [
+        "dance"
+      ],
+      "tags": [
+        "dance"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "november-project-mon-2026-08-24",
+      "name": "November Project DC — Monday hills",
+      "start": "2026-08-24T06:30:00-04:00",
+      "end": "2026-08-24T07:10:00-04:00",
+      "venue": "Meridian Hill / Malcolm X Park (Joan of Arc statue)",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free; ~40-minute circuit + hills",
+      "link": "https://november-project.com/washington-dc/",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "pacers-14th-2026-08-24",
+      "name": "Pacers 14th Street social run",
+      "start": "2026-08-24T18:30:00-04:00",
+      "end": null,
+      "venue": "Pacers Running 14th Street",
+      "neighborhood": "U Street",
+      "cost": "free",
+      "cost_detail": "free weekly Monday store run, 3–6 mile options plus a 2-mile walking group",
+      "link": "https://runpacers.com/pages/social-runs-1",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "dacha-navy-yard-monday-trivia-2026-08-24",
+      "name": "Monday Night Trivia at Dacha Navy Yard",
+      "start": "2026-08-24T19:00:00-04:00",
+      "end": "2026-08-24T21:00:00-04:00",
+      "venue": "Dacha Beer Garden Navy Yard, 79 Potomac Ave SE",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free to play; hosted by SPRK Trivia",
+      "link": "https://www.dachabeergarden.com/event/monday-night-trivia/",
+      "categories": [
+        "trivia"
+      ],
+      "tags": [
+        "trivia",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "hi-lawn-trivia-2026-08-24",
+      "name": "Rooftop Trivia at Hi-Lawn",
+      "start": "2026-08-24T19:00:00-04:00",
+      "end": "2026-08-24T20:30:00-04:00",
+      "venue": "Hi-Lawn",
+      "neighborhood": "Union Market",
+      "cost": "free",
+      "cost_detail": "free to play, 21+; reservations encouraged, ; happy hour 3–7pm",
+      "link": "https://districtfray.com/event/rooftop-trivia-at-hi-lawn-35/",
+      "categories": [
+        "trivia",
+        "mixer"
+      ],
+      "tags": [
+        "trivia",
+        "mixer",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-con-candela-mondays-2026-08-24",
+      "name": "Salsa con Candela Mondays at Lucky Bar",
+      "start": "2026-08-24T19:30:00-04:00",
+      "end": "2026-08-25T01:00:00-04:00",
+      "venue": "Lucky Bar DC",
+      "neighborhood": "Dupont",
+      "cost": "free",
+      "cost_detail": "no cover all night; open-level salsa class at 8pm, social 9pm–1am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "pacers-navy-yard-2026-08-25",
+      "name": "Pacers Navy Yard social run",
+      "start": "2026-08-25T18:30:00-04:00",
+      "end": null,
+      "venue": "Pacers Running Navy Yard",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free weekly store run, 3–6 mile options plus a 2-mile walking group; no signup",
+      "link": "https://runpacers.com/pages/social-runs-1",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "shaolin-jazz-can-i-kick-it-songbyrd-2026-08-25",
+      "name": "Shaolin Jazz CAN I KICK IT? ft. The Killer",
+      "start": "2026-08-25T19:00:00-04:00",
+      "end": null,
+      "venue": "Songbyrd Music House",
+      "neighborhood": "unknown",
+      "cost": "free",
+      "cost_detail": "free on Dice",
+      "link": "https://dice.fm/event/2wq3po-shaolin-jazz-can-i-kick-it-ft-the-killer-25th-aug-songbyrd-washington-dc-tickets",
+      "categories": [
+        "mixer",
+        "arts"
+      ],
+      "tags": [
+        "arts",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "bonchon-trivia-2026-08-25",
+      "name": "Trivia Night at Bonchon Navy Yard",
+      "start": "2026-08-25T19:00:00-04:00",
+      "end": "2026-08-25T21:00:00-04:00",
+      "venue": "Bonchon Navy Yard",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free to play (food/drink purchase expected); District Trivia, Tuesdays 7pm; listed on the Navy Yard BID calendar",
+      "link": "https://navyyarddc.org/events",
+      "categories": [
+        "trivia",
+        "mixer"
+      ],
+      "tags": [
+        "trivia",
+        "game-night",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "tacos-bachata-bethesda-2026-08-25",
+      "name": "Tacos & Bachata Tuesdays at La Catrina",
+      "start": "2026-08-25T19:30:00-04:00",
+      "end": "2026-08-26T00:00:00-04:00",
+      "venue": "La Catrina Bar & Lounge",
+      "neighborhood": "Bethesda",
+      "cost": "free",
+      "cost_detail": "free; beginner bachata class ~7:45pm, social until midnight",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "get-together-salsa-esl-2026-08-25",
+      "name": "Get Together: Salsa & Bachata Dance Social",
+      "start": "2026-08-25T20:00:00-04:00",
+      "end": "2026-08-26T02:00:00-04:00",
+      "venue": "Eighteenth Street Lounge, 1230 9th St NW",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; 21+; class 8–9pm, social dancing 9pm–2am",
+      "link": "https://www.eventbrite.com/e/get-together-salsa-bachata-dance-social-tickets-1985455321313",
+      "categories": [
+        "dance"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "get-together-esl-2026-08-25",
+      "name": "Get Together at the Lounge — salsa & bachata social",
+      "start": "2026-08-25T20:00:00-04:00",
+      "end": "2026-08-26T02:00:00-04:00",
+      "venue": "Eighteenth Street Lounge",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "$10 class + social (8–9pm beginner salsa); $7 social only 9pm–2am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "new-columbia-swing-2026-08-25",
+      "name": "New Columbia Swing social — free beginner lesson",
+      "start": "2026-08-25T20:00:00-04:00",
+      "end": "2026-08-25T23:00:00-04:00",
+      "venue": "Josephine Butler Parks Center",
+      "neighborhood": "Columbia Heights",
+      "cost": "paid",
+      "cost_detail": "$15 at door or $12 preregister; $10 students/military; lesson 8pm, social 9pm",
+      "link": "https://www.meetup.com/swing-dance-dc/events/sqnfttyjclbxb/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "swing",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "november-project-wed-2026-08-26",
+      "name": "November Project DC — Lincoln Memorial stairs — PR Day",
+      "start": "2026-08-26T06:20:00-04:00",
+      "end": null,
+      "venue": "Lincoln Memorial steps (Reflecting Pool)",
+      "neighborhood": "National Mall",
+      "cost": "free",
+      "cost_detail": "free; 6:20am main wave (also a 5:25am option); last Wednesday of the month is PR Day",
+      "link": "https://november-project.com/washington-dc/",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "green-drinks-dc-august-hh-2026-08-26",
+      "name": "Green Drinks DC August Happy Hour",
+      "start": "2026-08-26T18:00:00-04:00",
+      "end": "2026-08-26T20:30:00-04:00",
+      "venue": "Mission Dupont Circle, 1606 20th St NW",
+      "neighborhood": "Dupont",
+      "cost": "free",
+      "cost_detail": "free RSVP (optional donation ticket); 21+",
+      "link": "https://www.eventbrite.com/e/green-drinks-dcs-august-happy-hour-tickets-1991597445572",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "happy-hour",
+        "mixer",
+        "networking"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "eprc-wednesday-tap99-2026-08-26",
+      "name": "Every Person Run Club — Wednesday social run",
+      "start": "2026-08-26T18:30:00-04:00",
+      "end": null,
+      "venue": "Tap99 Navy Yard, 1250 Half St SE",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free; sign waiver first; easy ~3-mile loop then hang for drinks",
+      "link": "https://www.everypersonrunclub.com/weekly-group-runs",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "here-and-now-phone-free-2026-08-26",
+      "name": "Here & Now: A Phone-Free Social Experience",
+      "start": "2026-08-26T18:30:00-04:00",
+      "end": "2026-08-26T21:00:00-04:00",
+      "venue": "Logan Circle cocktail bar (address on RSVP); PoPville listed 1341 14th St NW",
+      "neighborhood": "Logan Circle",
+      "cost": "paid",
+      "cost_detail": "$25",
+      "link": "https://luma.com/sqj07crd",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "latin-social-run-2026-08-26",
+      "name": "lululemon & Latin Social Run — Georgetown",
+      "start": "2026-08-26T18:30:00-04:00",
+      "end": "2026-08-26T19:45:00-04:00",
+      "venue": "lululemon Georgetown",
+      "neighborhood": "Georgetown",
+      "cost": "free",
+      "cost_detail": "free biweekly 3-mile social run; check-in 6:15pm, run 6:30, loft social 7:15–7:45",
+      "link": "https://stayhappening.com/e/lululemon-andamp-latin-social-run-summer-social-run-series-E118SB1A110IF",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "problem-child-trivia-2026-08-26",
+      "name": "Trivia Night at Problem Child",
+      "start": "2026-08-26T19:00:00-04:00",
+      "end": "2026-08-26T21:00:00-04:00",
+      "venue": "Problem Child, Navy Yard",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free to play; hosted by J Street Trivia every Wednesday 7–9pm",
+      "link": "https://www.problemchilddc.com/events",
+      "categories": [
+        "trivia"
+      ],
+      "tags": [
+        "trivia",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-con-candela-wed-2026-08-26",
+      "name": "Salsa con Candela Wednesdays at Public Bar Live",
+      "start": "2026-08-26T19:00:00-04:00",
+      "end": "2026-08-27T02:00:00-04:00",
+      "venue": "Public Bar Live",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "$5 cover; free salsa workshop 7–9pm (lessons at 8pm), social 9pm–2am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "hi-lawn-bingo-2026-08-26",
+      "name": "Rooftop Bingo at Hi-Lawn",
+      "start": "2026-08-26T19:00:00-04:00",
+      "end": null,
+      "venue": "Hi-Lawn",
+      "neighborhood": "Union Market",
+      "cost": "paid",
+      "cost_detail": "unknown — listed on DC Fray's Hi-Lawn series calendar for Wednesday Aug 26",
+      "link": "https://districtfray.com/event/rooftop-trivia-at-hi-lawn-34/",
+      "categories": [
+        "trivia",
+        "mixer"
+      ],
+      "tags": [
+        "game-night",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "saddle-up-swing-2026-08-26",
+      "name": "Saddle Up Swing — country swing + cowboy karaoke",
+      "start": "2026-08-26T19:30:00-04:00",
+      "end": "2026-08-26T23:30:00-04:00",
+      "venue": "Desert 5 Spot DC, 400 Morse St NE",
+      "neighborhood": "Union Market",
+      "cost": "free",
+      "cost_detail": "free; 18+; social dancing 7:30–9pm, live-band cowboy karaoke 9pm–12am",
+      "link": "https://dice.fm/event/k65xkq-saddle-up-swing-26th-aug-desert-5-spot-dc-washington-tickets",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "swing",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "khaos-karaoke-dc9-2026-08-26",
+      "name": "Late Night Khaos Karaoke",
+      "start": "2026-08-26T22:00:00-04:00",
+      "end": null,
+      "venue": "DC9, 1940 9th St NW",
+      "neighborhood": "U Street",
+      "cost": "free",
+      "cost_detail": "free on Dice; weekly Wednesday karaoke",
+      "link": "https://dice.fm/event/3ornag-late-night-khaos-karaoke-26th-aug-dc9-washington-tickets",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "dc-startup-tech-mixer-arlo-2026-08-27",
+      "name": "DC Startup & Tech Mixer",
+      "start": "2026-08-27T18:00:00-04:00",
+      "end": "2026-08-27T21:00:00-04:00",
+      "venue": "Arlo Washington DC, 333 G St NW",
+      "neighborhood": "Downtown",
+      "cost": "paid",
+      "cost_detail": "$0–$43 depending on ticket tier",
+      "link": "https://venunite.com/events/dc-startup-tech-mixer-3",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "mixer",
+        "networking",
+        "happy-hour"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "connectjew-live-2026-08-27",
+      "name": "ConnectJew Live",
+      "start": "2026-08-27T18:30:00-04:00",
+      "end": "2026-08-27T21:00:00-04:00",
+      "venue": "Downtown DC near Metro Center / Chinatown (address emailed 24 hours prior)",
+      "neighborhood": "Downtown",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; 21+; 20+ Jewish orgs; connection passports; come solo encouraged",
+      "link": "https://www.eventbrite.com/e/connectjew-live-tickets-1993711406486",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "mixer",
+        "networking"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "thursday-network-gbm-2026-08-27",
+      "name": "Thursday Network August General Body Meeting + post-GBM social",
+      "start": "2026-08-27T18:30:00-04:00",
+      "end": "2026-08-27T21:00:00-04:00",
+      "venue": "PNC Place, 800 17th St NW",
+      "neighborhood": "Downtown",
+      "cost": "paid",
+      "cost_detail": "unknown member vs public price; networking 6:45, program 7:00, social nearby after",
+      "link": "https://thursdaynetwork.org/event-6555580",
+      "categories": [
+        "mixer"
+      ],
+      "tags": [
+        "networking",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "pacers-banneker-track-2026-08-27",
+      "name": "Pacers DC track workout at Banneker",
+      "start": "2026-08-27T18:30:00-04:00",
+      "end": null,
+      "venue": "Benjamin Banneker Recreation Center track",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free Thursday track workout; part of Pacers / DC Half training",
+      "link": "https://www.dchalfmarathon.com/training",
+      "categories": [
+        "run",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "problem-child-bingo-2026-08-27",
+      "name": "Bingo Thursdays at Problem Child",
+      "start": "2026-08-27T19:00:00-04:00",
+      "end": "2026-08-27T21:00:00-04:00",
+      "venue": "Problem Child, Navy Yard",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free to play; hosted by J Street Trivia every Thursday 7–9pm",
+      "link": "https://www.problemchilddc.com/events",
+      "categories": [
+        "trivia"
+      ],
+      "tags": [
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "back-2-bachata-2026-08-27",
+      "name": "Back 2 Bachata at Sauf Haus",
+      "start": "2026-08-27T20:00:00-04:00",
+      "end": "2026-08-28T02:00:00-04:00",
+      "venue": "Sauf Haus Bier Hall & Garden",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "$10; bachata class 8–9pm, party 9pm–2am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "glen-echo-blues-2026-08-27",
+      "name": "Capital Blues Thursday dance",
+      "start": "2026-08-27T20:15:00-04:00",
+      "end": "2026-08-27T23:30:00-04:00",
+      "venue": "Glen Echo Park Ballroom Back Room",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "$10 DJ nights / $15 live band; lesson 8:15–9pm, social 9–11:30pm",
+      "link": "https://capitalblues.org/dances/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "fray-player-party-2026-08-28",
+      "name": "DC Fray summer player party",
+      "start": "2026-08-28T00:00:00-04:00",
+      "end": null,
+      "venue": "unknown",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "listed as PLAYER PARTY!! on every summer/late-summer Fray league page; venue/time not published on the public league pages",
+      "link": "https://dcfray.com/league/volleyball-dupont-lsu26-tue-our-lady/",
+      "categories": [
+        "sports",
+        "mixer"
+      ],
+      "tags": [
+        "sports-league",
+        "mixer",
+        "happy-hour"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "salsa-garden-party-arboretum-2026-08-28",
+      "name": "Salsa Garden Party at the National Arboretum",
+      "start": "2026-08-28T18:00:00-04:00",
+      "end": "2026-08-28T19:30:00-04:00",
+      "venue": "Washington Youth Garden, U.S. National Arboretum, 2400 R St NE",
+      "neighborhood": "unknown",
+      "cost": "free",
+      "cost_detail": "free beginner salsa lesson; food trucks Dos Carnales and Frosty Softy; RSVP recommended",
+      "link": "https://www.eventbrite.com/e/salsa-garden-party-tickets-1994372965226",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "dc-fray-player-party-2026-08-28",
+      "name": "DC Fray player party",
+      "start": "2026-08-28T19:00:00-04:00",
+      "end": null,
+      "venue": "unknown (announced to registered players)",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "unknown; listed as PLAYER PARTY!! on current Fray league calendars",
+      "link": "https://dcfray.com/league/volleyball-dupont-lsu26-tue-our-lady/",
+      "categories": [
+        "sports",
+        "mixer"
+      ],
+      "tags": [
+        "sports-league",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "sws-speed-dating-2026-08-28",
+      "name": "Salsa With Silvia speed dating + salsa/bachata",
+      "start": "2026-08-28T19:00:00-04:00",
+      "end": "2026-08-28T22:00:00-04:00",
+      "venue": "Salsa With Silvia Bethesda",
+      "neighborhood": "Bethesda",
+      "cost": "paid",
+      "cost_detail": "$45 includes one drink, dance lesson, table rotations, and a mini social; ages 21+",
+      "link": "https://salsawithsilvia.com/events/speed-dating-event/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "glen-echo-contra-2026-08-28",
+      "name": "Friday Night Contra Dance at Glen Echo",
+      "start": "2026-08-28T19:30:00-04:00",
+      "end": "2026-08-28T23:00:00-04:00",
+      "venue": "Glen Echo Park",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "unknown — lesson 7:30pm, social 8–11pm",
+      "link": "https://glenechopark.org/events-calendar",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "volo-spike-tiki-2026-08-29",
+      "name": "Spike and Tiki volleyball tournament",
+      "start": "2026-08-29T10:00:00-04:00",
+      "end": "2026-08-29T16:00:00-04:00",
+      "venue": "Club Volo National Landing",
+      "neighborhood": "National Landing",
+      "cost": "paid",
+      "cost_detail": "unknown tournament fee; 4v4 coed; registration closes Aug 28",
+      "link": "https://www.volosports.com/washington-dc",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "dc-rawhides-2026-08-29",
+      "name": "DC Rawhides two-step dance",
+      "start": "2026-08-29T19:00:00-04:00",
+      "end": "2026-08-29T22:30:00-04:00",
+      "venue": "Glen Echo Park",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "unknown — two-step lesson 7pm, social 8–10:30pm; LGBTQ+ affirming, all welcome",
+      "link": "https://glenechopark.org/events-calendar",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "glen-echo-swing-gottaswing-2026-08-29",
+      "name": "Gottaswing Saturday swing dance",
+      "start": "2026-08-29T20:00:00-04:00",
+      "end": "2026-08-29T23:30:00-04:00",
+      "venue": "Glen Echo Park",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "unknown — lesson 8pm, social 9–11:30pm",
+      "link": "https://glenechopark.org/events-calendar",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "swing",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "eprc-sunday-capitol-hill-2026-08-30",
+      "name": "Every Person Run Club — Sunday long run",
+      "start": "2026-08-30T08:00:00-04:00",
+      "end": null,
+      "venue": "Big League Performance & Rehab, 637 Pennsylvania Ave SE",
+      "neighborhood": "Capitol Hill",
+      "cost": "free",
+      "cost_detail": "free; Sunday long-run / 5-mile option",
+      "link": "https://www.everypersonrunclub.com/weekly-group-runs",
+      "categories": [
+        "run",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "run-navy-yard-2026-08-30",
+      "name": "Run Navy Yard inaugural fun run + festival",
+      "start": "2026-08-30T08:00:00-04:00",
+      "end": "2026-08-30T11:00:00-04:00",
+      "venue": "Anacostia Riverwalk Trail, 100 Potomac Ave SW",
+      "neighborhood": "Navy Yard",
+      "cost": "paid",
+      "cost_detail": "unknown race fee on RunSignup (cookie wall); community fun run plus festival",
+      "link": "https://runsignup.com/Race/DC/Washington/RunNavyYard",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "azure-day-party-ciel-2026-08-30",
+      "name": "AZURE Day Party DC w/ Valentina Soto",
+      "start": "2026-08-30T14:00:00-04:00",
+      "end": null,
+      "venue": "Ciel Rooftop at Marriott Capitol Hill",
+      "neighborhood": "Capitol Hill",
+      "cost": "paid",
+      "cost_detail": "$30.35 on Dice",
+      "link": "https://dice.fm/event/q2lvlo-azure-day-party-dc-830-wvalentina-soto-30th-aug-ciel-rooftop-at-marriott-capitol-hill-washington-tickets",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "happy-hour"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "dcrr-xc-picnic-2026-08-30",
+      "name": "DC Road Runners Cross Country 3-Miler and Club Picnic",
+      "start": "2026-08-30T16:00:00-04:00",
+      "end": "2026-08-30T20:00:00-04:00",
+      "venue": "Nottoway Park",
+      "neighborhood": "Vienna",
+      "cost": "paid",
+      "cost_detail": "free for members / $10 nonmembers includes food and drinks; picnic-only option; XC start 5:15pm",
+      "link": "https://runsignup.com/Race/VA/Vienna/CrossCountryAndClubPicnic",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "november-project-mon-2026-08-31",
+      "name": "November Project DC — Monday hills",
+      "start": "2026-08-31T06:30:00-04:00",
+      "end": "2026-08-31T07:10:00-04:00",
+      "venue": "Meridian Hill / Malcolm X Park (Joan of Arc statue)",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free; ~40-minute circuit + hills",
+      "link": "https://november-project.com/washington-dc/",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "pacers-14th-2026-08-31",
+      "name": "Pacers 14th Street social run",
+      "start": "2026-08-31T18:30:00-04:00",
+      "end": null,
+      "venue": "Pacers Running 14th Street",
+      "neighborhood": "U Street",
+      "cost": "free",
+      "cost_detail": "free weekly Monday store run, 3–6 mile options plus a 2-mile walking group",
+      "link": "https://runpacers.com/pages/social-runs-1",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "dacha-navy-yard-monday-trivia-2026-08-31",
+      "name": "Monday Night Trivia at Dacha Navy Yard",
+      "start": "2026-08-31T19:00:00-04:00",
+      "end": "2026-08-31T21:00:00-04:00",
+      "venue": "Dacha Beer Garden Navy Yard, 79 Potomac Ave SE",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free to play; hosted by SPRK Trivia",
+      "link": "https://www.dachabeergarden.com/event/monday-night-trivia/",
+      "categories": [
+        "trivia"
+      ],
+      "tags": [
+        "trivia",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "hi-lawn-trivia-2026-08-31",
+      "name": "Rooftop Trivia at Hi-Lawn",
+      "start": "2026-08-31T19:00:00-04:00",
+      "end": "2026-08-31T20:30:00-04:00",
+      "venue": "Hi-Lawn",
+      "neighborhood": "Union Market",
+      "cost": "free",
+      "cost_detail": "free to play, 21+; Mondays 7–8:30pm through Oct 19; reservations encouraged",
+      "link": "https://www.eventbrite.com/e/rooftop-trivia-at-hi-lawn-2026-tickets-1988651519227",
+      "categories": [
+        "trivia",
+        "mixer"
+      ],
+      "tags": [
+        "trivia",
+        "mixer",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-con-candela-mondays-2026-08-31",
+      "name": "Salsa con Candela Mondays at Lucky Bar",
+      "start": "2026-08-31T19:30:00-04:00",
+      "end": "2026-09-01T01:00:00-04:00",
+      "venue": "Lucky Bar DC",
+      "neighborhood": "Dupont",
+      "cost": "free",
+      "cost_detail": "no cover all night; open-level salsa class at 8pm, social 9pm–1am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "pacers-navy-yard-2026-09-01",
+      "name": "Pacers Navy Yard social run",
+      "start": "2026-09-01T18:30:00-04:00",
+      "end": null,
+      "venue": "Pacers Running Navy Yard",
+      "neighborhood": "Navy Yard",
+      "cost": "free",
+      "cost_detail": "free weekly store run, 3–6 mile options plus a 2-mile walking group; no signup",
+      "link": "https://runpacers.com/pages/social-runs-1",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "tacos-bachata-bethesda-2026-09-01",
+      "name": "Tacos & Bachata Tuesdays at La Catrina",
+      "start": "2026-09-01T19:30:00-04:00",
+      "end": "2026-09-02T00:00:00-04:00",
+      "venue": "La Catrina Bar & Lounge",
+      "neighborhood": "Bethesda",
+      "cost": "free",
+      "cost_detail": "free; beginner bachata class ~7:45pm, social until midnight",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "get-together-salsa-esl-2026-09-01",
+      "name": "Get Together: Salsa & Bachata Dance Social",
+      "start": "2026-09-01T20:00:00-04:00",
+      "end": "2026-09-02T02:00:00-04:00",
+      "venue": "Eighteenth Street Lounge, 1230 9th St NW",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; 21+; class 8–9pm, social dancing 9pm–2am",
+      "link": "https://www.eventbrite.com/e/get-together-salsa-bachata-dance-social-tickets-1985455321313",
+      "categories": [
+        "dance"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "get-together-esl-2026-09-01",
+      "name": "Get Together at the Lounge — salsa & bachata social",
+      "start": "2026-09-01T20:00:00-04:00",
+      "end": "2026-09-02T02:00:00-04:00",
+      "venue": "Eighteenth Street Lounge",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "$10 class + social (8–9pm beginner salsa); $7 social only 9pm–2am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "new-columbia-swing-2026-09-01",
+      "name": "New Columbia Swing social — free beginner lesson",
+      "start": "2026-09-01T20:00:00-04:00",
+      "end": "2026-09-01T23:00:00-04:00",
+      "venue": "Josephine Butler Parks Center",
+      "neighborhood": "Columbia Heights",
+      "cost": "paid",
+      "cost_detail": "$15 at door or $12 preregister; $10 students/military; lesson 8pm, social 9pm",
+      "link": "https://www.meetup.com/swing-dance-dc/events/sqnfttyjclbxb/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "swing",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "november-project-wed-2026-09-02",
+      "name": "November Project DC — Lincoln Memorial stairs",
+      "start": "2026-09-02T06:20:00-04:00",
+      "end": null,
+      "venue": "Lincoln Memorial steps (Reflecting Pool)",
+      "neighborhood": "National Mall",
+      "cost": "free",
+      "cost_detail": "free; 6:20am main wave (also a 5:25am option); last Wednesday of the month is PR Day",
+      "link": "https://november-project.com/washington-dc/",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "eprc-wednesday-lululemon-2026-09-02",
+      "name": "Every Person Run Club — first-Wednesday run at lululemon F St",
+      "start": "2026-09-02T18:30:00-04:00",
+      "end": null,
+      "venue": "lululemon F Street, 1090 F St NW",
+      "neighborhood": "Downtown",
+      "cost": "free",
+      "cost_detail": "free; first Wednesday of the month meets at lululemon F St instead of Tap99",
+      "link": "https://www.everypersonrunclub.com/weekly-group-runs",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-con-candela-wed-2026-09-02",
+      "name": "Salsa con Candela Wednesdays at Public Bar Live",
+      "start": "2026-09-02T19:00:00-04:00",
+      "end": "2026-09-03T02:00:00-04:00",
+      "venue": "Public Bar Live",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "$5 cover; free salsa workshop 7–9pm (lessons at 8pm), social 9pm–2am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "inspira-don-titos-2026-09-02",
+      "name": "Inspira Latin Night at Don Tito's",
+      "start": "2026-09-02T19:00:00-04:00",
+      "end": "2026-09-02T23:00:00-04:00",
+      "venue": "Don Tito's",
+      "neighborhood": "Arlington",
+      "cost": "paid",
+      "cost_detail": "$12 early bird / $15 day-of; bachata lessons 7:30pm",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "pacers-banneker-track-2026-09-03",
+      "name": "Pacers DC track workout at Banneker",
+      "start": "2026-09-03T18:30:00-04:00",
+      "end": null,
+      "venue": "Benjamin Banneker Recreation Center track",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free Thursday track workout; part of Pacers / DC Half training",
+      "link": "https://www.dchalfmarathon.com/training",
+      "categories": [
+        "run",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "baila-thursdays-la-cosecha-2026-09-03",
+      "name": "Baila Thursdays salsa social",
+      "start": "2026-09-03T19:00:00-04:00",
+      "end": "2026-09-03T23:00:00-04:00",
+      "venue": "La Cosecha, 1280 4th St NE",
+      "neighborhood": "Union Market",
+      "cost": "paid",
+      "cost_detail": "$20 class+social online ($25 door); $15 social only; beginner lesson 7–8pm, open dancing 8–11pm",
+      "link": "https://unionmarketdc.com/event/baila-thursdays-bi-monthly-social/2026-08-06/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "baila-thursdays-2026-09-03",
+      "name": "Baila Thursdays bi-monthly salsa social",
+      "start": "2026-09-03T19:00:00-04:00",
+      "end": "2026-09-03T23:00:00-04:00",
+      "venue": "La Cosecha",
+      "neighborhood": "Union Market",
+      "cost": "paid",
+      "cost_detail": "class + social $20 online / $25 door; social only $15; beginner lesson 7–8pm, open dancing 8–11pm",
+      "link": "https://unionmarketdc.com/event/baila-thursdays-bi-monthly-social/2026-08-06/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "back-2-bachata-2026-09-03",
+      "name": "Back 2 Bachata at Sauf Haus",
+      "start": "2026-09-03T20:00:00-04:00",
+      "end": "2026-09-04T02:00:00-04:00",
+      "venue": "Sauf Haus Bier Hall & Garden",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "$10; bachata class 8–9pm, party 9pm–2am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "flash-truth-2026-09-03",
+      "name": "Para & Sessions present: Truth at Flash",
+      "start": "2026-09-03T21:00:00-04:00",
+      "end": null,
+      "venue": "Flash Nightclub",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; doors 9pm, club-level dance night",
+      "link": "https://www.flashdc.com/e/XblO4wBkxn",
+      "categories": [
+        "dance",
+        "nightlife"
+      ],
+      "tags": [
+        "dance"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "contra-dance-silver-spring-2026-09-04",
+      "name": "Contra dance in Silver Spring with live music",
+      "start": "2026-09-04T19:30:00-04:00",
+      "end": "2026-09-04T23:00:00-04:00",
+      "venue": "1 Veterans Place, Silver Spring, MD",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "unknown door price; live-music contra",
+      "link": "https://www.popville.com/events/",
+      "categories": [
+        "dance"
+      ],
+      "tags": [
+        "dance",
+        "swing"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-con-candela-fri-2026-09-04",
+      "name": "Salsa con Candela Fridays at Public Bar",
+      "start": "2026-09-04T20:00:00-04:00",
+      "end": "2026-09-05T01:00:00-04:00",
+      "venue": "Public Bar",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "$8; bachata class 8pm, social 9pm–1am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "flash-fumi-2026-09-04",
+      "name": "fumi + House Avenue at Flash",
+      "start": "2026-09-04T22:00:00-04:00",
+      "end": null,
+      "venue": "Flash Nightclub",
+      "neighborhood": "Shaw",
+      "cost": "paid",
+      "cost_detail": "unknown advance ticket price; doors 10pm; club level plus Flash Bar house room",
+      "link": "https://www.flashdc.com/e/rU2FsI42Fa",
+      "categories": [
+        "dance",
+        "nightlife"
+      ],
+      "tags": [
+        "dance"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "firstwedance-berhta-2026-09-05",
+      "name": "FirstWeDance: DC's Largest Dance Party Ever",
+      "start": "2026-09-05T22:00:00-04:00",
+      "end": null,
+      "venue": "BERHTA",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "Dice from $12.92; Labor Day weekend dance party",
+      "link": "https://dice.fm/event/dkdwr6-firstwedance-dcs-largest-dance-party-ever-5th-sep-berhta-washington-tickets",
+      "categories": [
+        "dance"
+      ],
+      "tags": [
+        "dance"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "eprc-sunday-capitol-hill-2026-09-06",
+      "name": "Every Person Run Club — Sunday long run",
+      "start": "2026-09-06T08:00:00-04:00",
+      "end": null,
+      "venue": "Big League Performance & Rehab, 637 Pennsylvania Ave SE",
+      "neighborhood": "Capitol Hill",
+      "cost": "free",
+      "cost_detail": "free; Sunday long-run / 5-mile option",
+      "link": "https://www.everypersonrunclub.com/weekly-group-runs",
+      "categories": [
+        "run",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "azure-day-party-ciel-2026-09-06",
+      "name": "AZURE Day Party DC w/ NAAR",
+      "start": "2026-09-06T14:00:00-04:00",
+      "end": null,
+      "venue": "Ciel Rooftop at Marriott Capitol Hill",
+      "neighborhood": "Capitol Hill",
+      "cost": "paid",
+      "cost_detail": "$25.29 on Dice",
+      "link": "https://dice.fm/event/bb2mvm-azure-day-party-dc-96-wnaar-6th-sep-ciel-rooftop-at-marriott-capitol-hill-washington-tickets",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "happy-hour"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "bachata-brunch-2026-09-06",
+      "name": "Bachata Brunch at Public Bar",
+      "start": "2026-09-06T14:00:00-04:00",
+      "end": "2026-09-06T21:00:00-04:00",
+      "venue": "Public Bar Live",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "$10 online / $15 door; Sunday 2–9pm with class (salsa listed at 3pm on the Aug 16 edition) and DJs",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "run",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "glen-echo-bumper-car-squares-2026-09-06",
+      "name": "Bumper Car Squares",
+      "start": "2026-09-06T14:45:00-04:00",
+      "end": "2026-09-06T17:30:00-04:00",
+      "venue": "Glen Echo Park Bumper Car Pavilion",
+      "neighborhood": "Glen Echo",
+      "cost": "paid",
+      "cost_detail": "$12 advance / $15 same-day adult; $5 teen; free 12 and under; intro 2:45–3pm then live-music squares",
+      "link": "https://glenechopark.org/dances",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-underground-2026-09-06",
+      "name": "Salsa Underground 1st-Sunday social",
+      "start": "2026-09-06T17:30:00-04:00",
+      "end": "2026-09-06T22:30:00-04:00",
+      "venue": "Citadel Creole Cuisine",
+      "neighborhood": "Silver Spring",
+      "cost": "paid",
+      "cost_detail": "$20 lesson + dancing / $15 dancing only after 6:30pm; ON2 lesson 5:30pm, social 6:30pm",
+      "link": "https://golatindance.com/event/salsa-underground-2/2026-09-06/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "november-project-mon-2026-09-07",
+      "name": "November Project DC — Monday hills",
+      "start": "2026-09-07T06:30:00-04:00",
+      "end": "2026-09-07T07:10:00-04:00",
+      "venue": "Meridian Hill / Malcolm X Park (Joan of Arc statue)",
+      "neighborhood": "Columbia Heights",
+      "cost": "free",
+      "cost_detail": "free; ~40-minute circuit + hills",
+      "link": "https://november-project.com/washington-dc/",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "volo-labor-day-vb-2026-09-07",
+      "name": "Labor Day volleyball tournament",
+      "start": "2026-09-07T10:00:00-04:00",
+      "end": "2026-09-07T15:00:00-04:00",
+      "venue": "Club Volo National Landing",
+      "neighborhood": "National Landing",
+      "cost": "paid",
+      "cost_detail": "unknown tournament fee; 4v4 coed; registration closes Sep 3",
+      "link": "https://www.volosports.com/washington-dc",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "pacers-14th-2026-09-07",
+      "name": "Pacers 14th Street social run",
+      "start": "2026-09-07T18:30:00-04:00",
+      "end": null,
+      "venue": "Pacers Running 14th Street",
+      "neighborhood": "U Street",
+      "cost": "free",
+      "cost_detail": "free weekly Monday store run, 3–6 mile options plus a 2-mile walking group",
+      "link": "https://runpacers.com/pages/social-runs-1",
+      "categories": [
+        "run",
+        "mixer",
+        "nightlife"
+      ],
+      "tags": [
+        "run-club",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "songbyrd-music-trivia-2026-09-07",
+      "name": "Songbyrd Music Trivia Night",
+      "start": "2026-09-07T19:00:00-04:00",
+      "end": null,
+      "venue": "Songbyrd Music House",
+      "neighborhood": "unknown",
+      "cost": "free",
+      "cost_detail": "free on Dice",
+      "link": "https://dice.fm/event/53m8w8-songbyrd-music-trivia-night-7th-sep-songbyrd-washington-dc-tickets",
+      "categories": [
+        "trivia"
+      ],
+      "tags": [
+        "trivia",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "hi-lawn-trivia-2026-09-07",
+      "name": "Rooftop Trivia at Hi-Lawn",
+      "start": "2026-09-07T19:00:00-04:00",
+      "end": "2026-09-07T20:30:00-04:00",
+      "venue": "Hi-Lawn",
+      "neighborhood": "Union Market",
+      "cost": "free",
+      "cost_detail": "free to play, 21+; Mondays 7–8:30pm through Oct 19; reservations encouraged",
+      "link": "https://www.eventbrite.com/e/rooftop-trivia-at-hi-lawn-2026-tickets-1988651519227",
+      "categories": [
+        "trivia",
+        "mixer"
+      ],
+      "tags": [
+        "trivia",
+        "mixer",
+        "game-night"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "salsa-con-candela-mondays-2026-09-07",
+      "name": "Salsa con Candela Mondays at Lucky Bar",
+      "start": "2026-09-07T19:30:00-04:00",
+      "end": "2026-09-08T01:00:00-04:00",
+      "venue": "Lucky Bar DC",
+      "neighborhood": "Dupont",
+      "cost": "free",
+      "cost_detail": "no cover all night; open-level salsa class at 8pm, social 9pm–1am",
+      "link": "https://migentedmv.com/washington-dc-bachata-calendar/",
+      "categories": [
+        "dance",
+        "mixer"
+      ],
+      "tags": [
+        "dance",
+        "salsa",
+        "bachata",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "anyone-awake-dc9-2026-08-17",
+      "name": "Anyone Awake at DC9",
+      "start": "2026-08-17T20:00:00-04:00",
+      "end": null,
+      "venue": "DC9, 1940 9th St NW",
+      "neighborhood": "U Street",
+      "cost": "paid",
+      "cost_detail": "$19.57 on Dice",
+      "link": "https://dice.fm/event/bboooo-anyone-awake-17th-aug-dc9-washington-tickets",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "improvapalooza-2026-08-19",
+      "name": "Improvapalooza 2026 (five-night marathon)",
+      "start": "2026-08-19T19:00:00-04:00",
+      "end": "2026-08-23T21:00:00-04:00",
+      "venue": "Studio Theatre / Washington Improv Theater, 1501 14th St NW",
+      "neighborhood": "Logan Circle",
+      "cost": "paid",
+      "cost_detail": "$25 nightly pass or $80 all-Palooza pass; 200+ shows Aug 19–23",
+      "link": "https://witdc.org/shows/improvapalooza-2026/",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "mystics-vs-tempo-2026-08-19",
+      "name": "Washington Mystics vs Toronto Tempo (Commissioner's Cup)",
+      "start": "2026-08-19T20:00:00-04:00",
+      "end": "2026-08-19T22:00:00-04:00",
+      "venue": "CareFirst Arena, 1100 Oak Dr SE",
+      "neighborhood": "Congress Heights",
+      "cost": "paid",
+      "cost_detail": "",
+      "link": "https://eventsdc.com/",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "usbg-summer-evening-2026-08-20",
+      "name": "Summer evening at the U.S. Botanic Garden",
+      "start": "2026-08-20T17:00:00-04:00",
+      "end": "2026-08-20T20:00:00-04:00",
+      "venue": "U.S. Botanic Garden, 100 Maryland Ave SW",
+      "neighborhood": "National Mall",
+      "cost": "free",
+      "cost_detail": "free; open until 8pm this date; live music from 5pm; drinks and snacks for sale",
+      "link": "https://washington.org/things-to-do-this-august-in-washington-dc",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts",
+        "after-hours"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "phillips-third-thursday-2026-08-20",
+      "name": "Phillips Collection Third Thursday extended hours",
+      "start": "2026-08-20T17:00:00-04:00",
+      "end": "2026-08-20T20:00:00-04:00",
+      "venue": "The Phillips Collection",
+      "neighborhood": "Dupont",
+      "cost": "free",
+      "cost_detail": "free 5–8pm; café open for wine/beer; Spotlight Talks 6 and 7pm",
+      "link": "https://www.phillipscollection.org/event/2026-08-20-third-thursday",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts",
+        "after-hours"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "carter-barron-prelude-jazzfest-2026-08-20",
+      "name": "Summer in the Parks: Prelude to JazzFest at Carter Barron",
+      "start": "2026-08-20T18:00:00-04:00",
+      "end": null,
+      "venue": "Carter Barron Amphitheater, 4850 Colorado Ave NW",
+      "neighborhood": "Rock Creek",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; JazzDC AllStars directed by Paul Carr, hosted by DJ Lance",
+      "link": "https://washington.org/things-to-do-this-august-in-washington-dc",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "mystics-vs-lynx-2026-08-21",
+      "name": "Washington Mystics vs Minnesota Lynx",
+      "start": "2026-08-21T19:30:00-04:00",
+      "end": "2026-08-21T21:30:00-04:00",
+      "venue": "CareFirst Arena, 1100 Oak Dr SE",
+      "neighborhood": "Congress Heights",
+      "cost": "paid",
+      "cost_detail": "",
+      "link": "https://eventsdc.com/",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "marine-barracks-friday-parade-2026-08-21",
+      "name": "Friday Evening Parade at Marine Barracks",
+      "start": "2026-08-21T20:00:00-04:00",
+      "end": null,
+      "venue": "Marine Barracks, 8th & I Streets SE",
+      "neighborhood": "Capitol Hill",
+      "cost": "free",
+      "cost_detail": "free; weekly Friday ceremony through August; reservations typically required",
+      "link": "https://washington.org/things-to-do-this-august-in-washington-dc",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "freedom-250-grand-prix-2026-08-22",
+      "name": "Freedom 250 Grand Prix (practice / qualifying / race)",
+      "start": "2026-08-22T00:00:00-04:00",
+      "end": "2026-08-23T23:59:00-04:00",
+      "venue": "National Mall street circuit",
+      "neighborhood": "National Mall",
+      "cost": "paid",
+      "cost_detail": "homepage calls it a free two-day event and also sells Champions Club / ticket packages — check freedom250gp.com",
+      "link": "https://www.freedom250gp.com/",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "national-book-festival-2026-08-22",
+      "name": "2026 National Book Festival",
+      "start": "2026-08-22T09:00:00-04:00",
+      "end": "2026-08-22T20:00:00-04:00",
+      "venue": "Walter E. Washington Convention Center",
+      "neighborhood": "Mount Vernon Square",
+      "cost": "free",
+      "cost_detail": "free with required registration; doors 8:30am, program 9am–8pm",
+      "link": "https://www.loc.gov/events/2026-national-book-festival/",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "carter-barron-black-alley-2026-08-22",
+      "name": "Summer in the Parks: Black Alley at Carter Barron",
+      "start": "2026-08-22T18:00:00-04:00",
+      "end": null,
+      "venue": "Carter Barron Amphitheater, 4850 Colorado Ave NW",
+      "neighborhood": "Rock Creek",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; Black Alley and Chester Burke Jr. & Company",
+      "link": "https://washington.org/things-to-do-this-august-in-washington-dc",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "washington-spirit-orlando-2026-08-23",
+      "name": "Washington Spirit vs Orlando Pride (Pride night)",
+      "start": "2026-08-23T16:00:00-04:00",
+      "end": "2026-08-23T19:00:00-04:00",
+      "venue": "Audi Field, 100 Potomac Ave SW",
+      "neighborhood": "Navy Yard",
+      "cost": "paid",
+      "cost_detail": "",
+      "link": "https://washingtonspirit.com/match/08-23-26/",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "femme-art-fair-2026-08-27",
+      "name": "FEMME Art Fair",
+      "start": "2026-08-27T00:00:00-04:00",
+      "end": "2026-08-30T23:59:00-04:00",
+      "venue": "The Square at International Square, 1850 K St NW",
+      "neighborhood": "Downtown",
+      "cost": "paid",
+      "cost_detail": "unknown day vs weekend pass price; 100+ women artists, workshops, talks",
+      "link": "https://washington.org/things-to-do-this-august-in-washington-dc",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "cleveland-park-night-market-2026-08-27",
+      "name": "Cleveland Park Night Market",
+      "start": "2026-08-27T17:00:00-04:00",
+      "end": "2026-08-27T21:00:00-04:00",
+      "venue": "3400 block of Connecticut Ave NW",
+      "neighborhood": "unknown",
+      "cost": "free",
+      "cost_detail": "free street market 5–9pm",
+      "link": "https://www.popville.com/events/",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "marine-barracks-friday-parade-2026-08-28",
+      "name": "Friday Evening Parade at Marine Barracks",
+      "start": "2026-08-28T20:00:00-04:00",
+      "end": null,
+      "venue": "Marine Barracks, 8th & I Streets SE",
+      "neighborhood": "Capitol Hill",
+      "cost": "free",
+      "cost_detail": "free; last August parade in this window; reservations typically required",
+      "link": "https://washington.org/things-to-do-this-august-in-washington-dc",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "washington-spirit-bay-fc-2026-08-30",
+      "name": "Washington Spirit vs Bay FC",
+      "start": "2026-08-30T00:00:00-04:00",
+      "end": null,
+      "venue": "Audi Field, 100 Potomac Ave SW",
+      "neighborhood": "Navy Yard",
+      "cost": "paid",
+      "cost_detail": "",
+      "link": "https://washingtonspirit.com/schedule/",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports-league"
+      ],
+      "recurring": false
+    },
+    {
+      "id": "phillips-after-5-2026-09-03",
+      "name": "Phillips after 5: Phillips Flash",
+      "start": "2026-09-03T17:00:00-04:00",
+      "end": "2026-09-03T20:30:00-04:00",
+      "venue": "The Phillips Collection",
+      "neighborhood": "Dupont",
+      "cost": "paid",
+      "cost_detail": "ticketed after-hours (members free); DJ Stylus, live band, flash tattoos, cash bar — typical After 5 GA has been $20",
+      "link": "https://www.phillipscollection.org/event/2026-09-03-phillips-after-5",
+      "categories": [
+        "mixer",
+        "nightlife",
+        "arts"
+      ],
+      "tags": [
+        "arts",
+        "after-hours",
+        "mixer"
+      ],
+      "recurring": true
+    },
+    {
+      "id": "dc-jazzfest-dan-murray-2026-09-03",
+      "name": "DC JazzFest presents Dan Murray",
+      "start": "2026-09-03T19:00:00-04:00",
+      "end": "2026-09-03T20:00:00-04:00",
+      "venue": "2401 Foxhall Rd NW (Hillwood)",
+      "neighborhood": "unknown",
+      "cost": "paid",
+      "cost_detail": "unknown ticket price; 7–8pm set",
+      "link": "https://www.popville.com/events/",
+      "categories": [
+        "arts"
+      ],
+      "tags": [
+        "arts"
+      ],
+      "recurring": false
+    }
+  ]
+}
