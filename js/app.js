@@ -27,6 +27,7 @@
     cursor: todayYmd(),
     selectedDay: null,
     selectedEventId: null,
+    agendaFocus: null,
     filtersOpen: false,
     filters: {
       cats: new Set(),
@@ -53,9 +54,14 @@
     colophon: $("colophon"),
     drawer: $("drawer"),
     scrim: $("scrim"),
+    btnAgenda: $("btn-agenda"),
     btnWeek: $("btn-week"),
     btnMonth: $("btn-month"),
     btnToday: $("btn-today"),
+    filterBrand: $("filter-brand"),
+    dayNav: $("day-nav"),
+    btnDayUp: $("btn-day-up"),
+    btnDayDown: $("btn-day-down"),
     btnPrev: $("btn-prev"),
     btnNext: $("btn-next")
   };
@@ -243,10 +249,8 @@
     var params;
     try { params = new URLSearchParams(location.search); } catch (e) { return; }
     var view = params.get("view");
-    if (view === "month" || view === "week") {
+    if (view === "month" || view === "week" || view === "agenda") {
       state.view = view;
-      el.btnWeek.setAttribute("aria-selected", view === "week" ? "true" : "false");
-      el.btnMonth.setAttribute("aria-selected", view === "month" ? "true" : "false");
     }
     paramList(params, "cat").forEach(function (v) {
       v = v.toLowerCase();
@@ -266,6 +270,8 @@
     state.filters.neighborhoods.forEach(function (v) { params.append("hood", v); });
     state.filters.costs.forEach(function (v) { params.append("cost", v); });
     if (state.view === "month") params.set("view", "month");
+    if (state.view === "agenda") params.set("view", "agenda");
+    if (state.view === "week" && isMobile()) params.set("view", "week");
     var qs = params.toString();
     var next = location.pathname + (qs ? "?" + qs : "") + location.hash;
     if (location.pathname + location.search + location.hash !== next) {
@@ -359,10 +365,11 @@
         "<code>http://localhost:8080</code>.</p></div>";
       return;
     }
-    if (isMobile() && state.view === "week") renderAgenda();
+    if (isMobile() && state.view === "agenda") renderAgenda();
     else if (isMobile() && state.view === "month") renderMonthHeatmap();
     else if (state.view === "week") renderWeek();
     else renderMonth();
+    updateDayNav();
   }
 
   function evCard(ev, compact) {
@@ -505,15 +512,21 @@
   function openAgendaDay(ymd) {
     state.cursor = ymd;
     state.selectedDay = ymd;
+    state.agendaFocus = ymd;
     state.selectedEventId = null;
-    state.view = "week";
-    el.btnWeek.setAttribute("aria-selected", "true");
-    el.btnMonth.setAttribute("aria-selected", "false");
+    state.view = "agenda";
+    syncViewButtons();
     renderAll();
   }
 
+  function weekdayLabel(ymd) {
+    var p = parseYmd(ymd);
+    var dt = new Date(Date.UTC(p.y, p.m - 1, p.d));
+    return WD[dt.getUTCDay()];
+  }
+
   function renderWeek() {
-    var start = startOfWeek(state.cursor);
+    var start = isMobile() ? (state.cursor || todayYmd()) : startOfWeek(state.cursor);
     el.period.textContent = fmtRangeWeek(start);
     var html = '<div class="cal week">';
     for (var i = 0; i < 7; i++) {
@@ -526,7 +539,7 @@
       html +=
         '<article class="' + cls + '" data-day="' + ymd + '">' +
           '<header class="d-head" data-day="' + ymd + '">' +
-            '<div><div class="d-wd">' + WD[i] + "</div>" +
+            '<div><div class="d-wd">' + weekdayLabel(ymd) + "</div>" +
             '<div class="d-num">' + p.d + "</div></div>" +
             (list.length ? '<div class="d-count">' + list.length + "</div>" : "") +
           "</header>" +
@@ -666,18 +679,33 @@
 
   /* ——— actions ——— */
 
+  function syncViewButtons() {
+    if (el.btnAgenda) el.btnAgenda.setAttribute("aria-selected", state.view === "agenda" ? "true" : "false");
+    el.btnWeek.setAttribute("aria-selected", state.view === "week" ? "true" : "false");
+    el.btnMonth.setAttribute("aria-selected", state.view === "month" ? "true" : "false");
+  }
+
   function setView(view) {
     if (state.view === view) return;
     state.view = view;
-    el.btnWeek.setAttribute("aria-selected", view === "week" ? "true" : "false");
-    el.btnMonth.setAttribute("aria-selected", view === "month" ? "true" : "false");
+    if (view === "agenda") {
+      state.cursor = todayYmd();
+      state.agendaFocus = todayYmd();
+    }
+    if (view === "week" && isMobile()) {
+      state.cursor = todayYmd();
+    }
+    syncViewButtons();
     renderAll(true);
   }
 
   function step(dir) {
-    if (isMobile() && state.view === "week") {
+    if (isMobile() && state.view === "agenda") {
       state.cursor = addDays(agendaStart(), dir * 7);
       state.selectedDay = state.cursor;
+      state.agendaFocus = state.cursor;
+    } else if (isMobile() && state.view === "week") {
+      state.cursor = addDays(state.cursor || todayYmd(), dir * 7);
     } else if (state.view === "week") {
       state.cursor = addDays(startOfWeek(state.cursor), dir * 7);
     } else {
@@ -691,13 +719,16 @@
   function goToday() {
     state.cursor = todayYmd();
     state.selectedDay = todayYmd();
+    state.agendaFocus = todayYmd();
     state.selectedEventId = null;
     renderAll(true);
   }
 
   function openDay(ymd) {
-    if (isMobile()) {
-      openAgendaDay(ymd);
+    if (isMobile() && state.view === "agenda") {
+      state.agendaFocus = ymd;
+      scrollAgendaTo(ymd);
+      updateDayNav();
       return;
     }
     state.selectedDay = ymd;
@@ -747,6 +778,65 @@
     return window.matchMedia("(max-width: 720px)").matches;
   }
 
+  function agendaDayIds() {
+    return Array.prototype.map.call(document.querySelectorAll(".agenda-day"), function (n) {
+      return n.getAttribute("data-day");
+    });
+  }
+
+  function focusedAgendaDay() {
+    var nodes = document.querySelectorAll(".agenda-day");
+    if (!nodes.length) return state.agendaFocus || todayYmd();
+    var mark = el.filterbar.getBoundingClientRect().bottom + 12;
+    var current = nodes[0].getAttribute("data-day");
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i].getBoundingClientRect().top <= mark + 20) {
+        current = nodes[i].getAttribute("data-day");
+      }
+    }
+    return current;
+  }
+
+  function updateDayNav() {
+    var show = isMobile() && state.view === "agenda" && !!document.querySelector(".agenda");
+    el.dayNav.hidden = !show;
+    if (!show) return;
+    var days = agendaDayIds();
+    var cur = state.agendaFocus || focusedAgendaDay();
+    var i = days.indexOf(cur);
+    if (i < 0) i = 0;
+    var today = todayYmd();
+    var atToday = !days[i] || days[i] === today || cur === today;
+    el.btnDayUp.hidden = atToday || i <= 0;
+    el.btnDayDown.hidden = i < 0 || i >= days.length - 1;
+  }
+
+  function stepAgendaDay(dir) {
+    var days = agendaDayIds();
+    var cur = state.agendaFocus || focusedAgendaDay();
+    var i = days.indexOf(cur);
+    if (i < 0) i = 0;
+    var next = days[i + dir];
+    if (!next) return;
+    if (dir < 0 && next < todayYmd()) return;
+    state.agendaFocus = next;
+    scrollAgendaTo(next);
+    updateDayNav();
+  }
+
+  function onWindowScroll() {
+    var scrolled = window.scrollY > 36;
+    el.filterbar.classList.toggle("is-scrolled", scrolled);
+    if (el.filterBrand) el.filterBrand.setAttribute("aria-hidden", scrolled ? "false" : "true");
+    if (isMobile() && state.view === "agenda") {
+      var focus = focusedAgendaDay();
+      if (focus && focus !== state.agendaFocus) {
+        state.agendaFocus = focus;
+        updateDayNav();
+      }
+    }
+  }
+
   function setFiltersOpen(open, persist) {
     state.filtersOpen = !!open;
     el.filterbar.classList.toggle("is-collapsed", !state.filtersOpen);
@@ -773,8 +863,12 @@
   }
 
   function bind() {
+    if (el.btnAgenda) el.btnAgenda.addEventListener("click", function () { setView("agenda"); });
     el.btnWeek.addEventListener("click", function () { setView("week"); });
     el.btnMonth.addEventListener("click", function () { setView("month"); });
+    el.btnDayUp.addEventListener("click", function () { stepAgendaDay(-1); });
+    el.btnDayDown.addEventListener("click", function () { stepAgendaDay(1); });
+    window.addEventListener("scroll", onWindowScroll, { passive: true });
     el.btnToday.addEventListener("click", goToday);
     el.btnPrev.addEventListener("click", function () { step(-1); });
     el.btnNext.addEventListener("click", function () { step(1); });
@@ -849,7 +943,12 @@
   }
 
   readUrl();
+  if (isMobile() && state.view === "week" && !/view=/.test(location.search)) {
+    state.view = "agenda";
+  }
+  syncViewButtons();
   bind();
   initFiltersOpen();
+  onWindowScroll();
   load().then(renderAll);
 })();

@@ -1118,6 +1118,59 @@ a:hover { color: #fff; }
   animation: swap 280ms var(--ease);
 }
 
+
+.filter-brand {
+  display: none;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.filter-brand .mark {
+  width: 16px;
+  height: 16px;
+  color: var(--accent);
+}
+
+.filter-brand .wordmark {
+  font-size: 18px;
+  letter-spacing: 0.18em;
+}
+
+.filter-brand .rule { height: 14px; }
+
+.filter-brand .city {
+  padding-top: 3px;
+  font-size: 10px;
+}
+
+.filterbar.is-scrolled .showing { display: none; }
+.filterbar.is-scrolled .filter-brand { display: flex; }
+
+.tab-agenda { display: none; }
+
+.day-nav {
+  position: fixed;
+  right: 16px;
+  bottom: 22px;
+  z-index: 24;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.day-nav[hidden] { display: none; }
+
+.day-nav .icon {
+  width: 44px;
+  height: 44px;
+  background: var(--bg-elev);
+  border-color: var(--line-mid);
+  box-shadow: var(--shadow);
+}
+
+.day-nav .icon[hidden] { display: none; }
+
 /* reduced motion */
 
 @media (prefers-reduced-motion: reduce) {
@@ -1149,10 +1202,17 @@ a:hover { color: #fff; }
   .filterbar:not(.is-ready) .blinds-overlay i { transform: scaleY(1); }
   .toolbar { flex-direction: column; align-items: stretch; }
   .nav { flex-wrap: wrap; }
-  .lbl-wide { display: none; }
-  .lbl-narrow { display: inline; }
+  .tab-agenda { display: inline; }
+  .view-toggle button { padding: 0 10px; }
   .board { min-height: 0; }
   .drawer { width: 100vw; }
   .mast-meta { gap: 12px; }
   .period { white-space: normal; }
+  .week {
+    grid-template-columns: repeat(7, minmax(78vw, 1fr));
+    scroll-snap-type: x mandatory;
+    overflow: auto;
+    min-height: 560px;
+  }
+  .week .day { scroll-snap-align: start; }
 }
