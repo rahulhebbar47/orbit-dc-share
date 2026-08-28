@@ -983,9 +983,6 @@
   }
 
   readUrl();
-  if (isMobile() && state.view === "week" && !/view=/.test(location.search)) {
-    state.view = "agenda";
-  }
   syncViewButtons();
   bind();
   initFiltersOpen();
