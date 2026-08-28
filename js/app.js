@@ -359,7 +359,9 @@
         "<code>http://localhost:8080</code>.</p></div>";
       return;
     }
-    if (state.view === "week") renderWeek();
+    if (isMobile() && state.view === "week") renderAgenda();
+    else if (isMobile() && state.view === "month") renderMonthHeatmap();
+    else if (state.view === "week") renderWeek();
     else renderMonth();
   }
 
@@ -378,6 +380,136 @@
         (flags ? '<span class="ev-flags">' + flags + "</span>" : "") +
       "</button>"
     );
+  }
+
+  function prettyDay(ymd) {
+    var today = todayYmd();
+    if (ymd === today) return "Today";
+    if (ymd === addDays(today, 1)) return "Tomorrow";
+    if (ymd === addDays(today, -1)) return "Yesterday";
+    var p = parseYmd(ymd);
+    var dt = new Date(Date.UTC(p.y, p.m - 1, p.d));
+    var wd = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][dt.getUTCDay()];
+    return wd + " " + MO[p.m - 1].slice(0, 1) + MO[p.m - 1].slice(1).toLowerCase() + " " + p.d;
+  }
+
+  function nextUpEvent() {
+    var now = Date.now();
+    var list = visibleEvents();
+    for (var i = 0; i < list.length; i++) {
+      if (new Date(list[i].start).getTime() >= now) return list[i];
+    }
+    return null;
+  }
+
+  function agendaStart() {
+    var today = todayYmd();
+    return state.cursor && state.cursor < today ? state.cursor : (state.cursor || today);
+  }
+
+  function renderAgenda() {
+    var start = agendaStart();
+    var today = todayYmd();
+    if (!state.cursor || state.cursor > addDays(today, 60)) start = today;
+    var days = [];
+    var last = addDays(start, 20);
+    var ymd = start;
+    while (ymd <= last) {
+      var list = eventsOn(ymd);
+      if (list.length || ymd === start || ymd === today) days.push(ymd);
+      ymd = addDays(ymd, 1);
+    }
+    var first = days[0] || start;
+    var end = days.length ? days[days.length - 1] : last;
+    el.period.textContent = days.length ? prettyDay(first) + "  –  " + prettyDay(end) : "Upcoming";
+
+    var html = '<div class="agenda">';
+    var next = nextUpEvent();
+    if (next && start <= today) {
+      var meta = [next.venue, next.neighborhood].filter(Boolean).join("  ·  ");
+      html +=
+        '<button type="button" class="next-up cat-' + primaryCat(next) + '" data-event="' + esc(next.id) + '">' +
+          '<span class="next-kicker">Next up</span>' +
+          '<span class="next-when">' + esc(prettyDay(eventDay(next))) + "  ·  " + esc(fmtTime(next.start)) + "</span>" +
+          '<span class="next-name">' + esc(next.name) + "</span>" +
+          (meta ? '<span class="next-meta">' + esc(meta) + "</span>" : "") +
+        "</button>";
+    }
+
+    if (!days.length) {
+      html += '<div class="quiet">Nothing coming up in this stretch.</div>';
+    }
+
+    days.forEach(function (day) {
+      var list = eventsOn(day);
+      var cls = "agenda-day";
+      if (day === today) cls += " is-today";
+      if (day === state.selectedDay) cls += " is-selected";
+      html +=
+        '<section class="' + cls + '" id="agenda-' + day + '" data-day="' + day + '">' +
+          '<header class="agenda-head" data-day="' + day + '">' +
+            '<div class="agenda-title">' + esc(prettyDay(day)) + "</div>" +
+            (list.length ? '<div class="agenda-count">' + list.length + "</div>" : "") +
+          "</header>" +
+          (list.length
+            ? '<div class="agenda-list">' + list.map(function (ev) { return evCard(ev, false); }).join("") + "</div>"
+            : '<div class="quiet">Nothing on the board.</div>') +
+        "</section>";
+    });
+    html += "</div>";
+    el.board.innerHTML = html;
+    requestAnimationFrame(function () {
+      scrollAgendaTo(state.selectedDay || (start === today ? today : start));
+    });
+  }
+
+  function scrollAgendaTo(ymd) {
+    if (!ymd) return;
+    var node = document.getElementById("agenda-" + ymd);
+    if (!node) return;
+    var bar = el.filterbar.getBoundingClientRect();
+    var top = node.getBoundingClientRect().top + window.scrollY - bar.height - 12;
+    window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+  }
+
+  function renderMonthHeatmap() {
+    var monthStart = startOfMonth(state.cursor);
+    el.period.textContent = fmtMonthTitle(monthStart);
+    var gridStart = startOfWeek(monthStart);
+    var html = '<div class="heat-wrap">';
+    html += '<div class="heat-wd">';
+    ["S", "M", "T", "W", "T", "F", "S"].forEach(function (w) {
+      html += "<span>" + w + "</span>";
+    });
+    html += "</div>";
+    html += '<div class="heat">';
+    for (var i = 0; i < 42; i++) {
+      var ymd = addDays(gridStart, i);
+      var p = parseYmd(ymd);
+      var n = eventsOn(ymd).length;
+      var cls = "heat-day";
+      if (ymd.slice(0, 7) !== monthStart.slice(0, 7)) cls += " is-outside";
+      if (ymd === todayYmd()) cls += " is-today";
+      if (ymd === state.selectedDay) cls += " is-selected";
+      if (!n) cls += " is-empty";
+      html +=
+        '<button type="button" class="' + cls + '" data-day="' + ymd + '" data-open-agenda="1">' +
+          '<span class="heat-num">' + p.d + "</span>" +
+          '<span class="heat-count">' + (n ? n : "") + "</span>" +
+        "</button>";
+    }
+    html += "</div></div>";
+    el.board.innerHTML = html;
+  }
+
+  function openAgendaDay(ymd) {
+    state.cursor = ymd;
+    state.selectedDay = ymd;
+    state.selectedEventId = null;
+    state.view = "week";
+    el.btnWeek.setAttribute("aria-selected", "true");
+    el.btnMonth.setAttribute("aria-selected", "false");
+    renderAll();
   }
 
   function renderWeek() {
@@ -543,7 +675,10 @@
   }
 
   function step(dir) {
-    if (state.view === "week") {
+    if (isMobile() && state.view === "week") {
+      state.cursor = addDays(agendaStart(), dir * 7);
+      state.selectedDay = state.cursor;
+    } else if (state.view === "week") {
       state.cursor = addDays(startOfWeek(state.cursor), dir * 7);
     } else {
       var p = parseYmd(startOfMonth(state.cursor));
@@ -555,10 +690,16 @@
 
   function goToday() {
     state.cursor = todayYmd();
+    state.selectedDay = todayYmd();
+    state.selectedEventId = null;
     renderAll(true);
   }
 
   function openDay(ymd) {
+    if (isMobile()) {
+      openAgendaDay(ymd);
+      return;
+    }
     state.selectedDay = ymd;
     state.selectedEventId = null;
     renderAll();
@@ -655,7 +796,13 @@
         return;
       }
       var dayBtn = e.target.closest("[data-day]");
-      if (dayBtn) openDay(dayBtn.getAttribute("data-day"));
+      if (dayBtn) {
+        if (isMobile() && dayBtn.getAttribute("data-open-agenda")) {
+          openAgendaDay(dayBtn.getAttribute("data-day"));
+          return;
+        }
+        openDay(dayBtn.getAttribute("data-day"));
+      }
     });
 
     el.drawer.addEventListener("click", function (e) {
