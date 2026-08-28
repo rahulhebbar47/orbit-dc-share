@@ -525,31 +525,65 @@
     return WD[dt.getUTCDay()];
   }
 
+  function lastVisibleYmd() {
+    var list = visibleEvents();
+    var last = todayYmd();
+    for (var i = 0; i < list.length; i++) {
+      var d = eventDay(list[i]);
+      if (d > last) last = d;
+    }
+    return last;
+  }
+
+  function weekColumn(ymd) {
+    var p = parseYmd(ymd);
+    var list = eventsOn(ymd);
+    var cls = "day";
+    if (ymd === todayYmd()) cls += " is-today";
+    if (ymd === state.selectedDay) cls += " is-selected";
+    return (
+      '<article class="' + cls + '" data-day="' + ymd + '">' +
+        '<header class="d-head" data-day="' + ymd + '">' +
+          '<div><div class="d-wd">' + weekdayLabel(ymd) + "</div>" +
+          '<div class="d-num">' + p.d + "</div></div>" +
+          (list.length ? '<div class="d-count">' + list.length + "</div>" : "") +
+        "</header>" +
+        '<div class="d-body">' +
+          list.map(function (ev) { return evCard(ev, true); }).join("") +
+        "</div>" +
+      "</article>"
+    );
+  }
+
   function renderWeek() {
-    var start = isMobile() ? (state.cursor || todayYmd()) : startOfWeek(state.cursor);
-    el.period.textContent = fmtRangeWeek(start);
-    var html = '<div class="cal week">';
-    for (var i = 0; i < 7; i++) {
-      var ymd = addDays(start, i);
-      var p = parseYmd(ymd);
-      var list = eventsOn(ymd);
-      var cls = "day";
-      if (ymd === todayYmd()) cls += " is-today";
-      if (ymd === state.selectedDay) cls += " is-selected";
-      html +=
-        '<article class="' + cls + '" data-day="' + ymd + '">' +
-          '<header class="d-head" data-day="' + ymd + '">' +
-            '<div><div class="d-wd">' + weekdayLabel(ymd) + "</div>" +
-            '<div class="d-num">' + p.d + "</div></div>" +
-            (list.length ? '<div class="d-count">' + list.length + "</div>" : "") +
-          "</header>" +
-          '<div class="d-body">' +
-            list.map(function (ev) { return evCard(ev, true); }).join("") +
-          "</div>" +
-        "</article>";
+    if (!isMobile()) {
+      var start = startOfWeek(state.cursor);
+      el.period.textContent = fmtRangeWeek(start);
+      var html = '<div class="cal week">';
+      for (var i = 0; i < 7; i++) html += weekColumn(addDays(start, i));
+      html += "</div>";
+      el.board.innerHTML = html;
+      return;
+    }
+    var start = todayYmd();
+    var end = lastVisibleYmd();
+    if (end < start) end = addDays(start, 6);
+    el.period.textContent = prettyDay(start) + "  –  " + prettyDay(end);
+    var html = '<div class="cal week week-stream">';
+    var ymd = start;
+    var n = 0;
+    while (ymd <= end && n < 90) {
+      html += weekColumn(ymd);
+      ymd = addDays(ymd, 1);
+      n += 1;
     }
     html += "</div>";
     el.board.innerHTML = html;
+    var stream = el.board.querySelector(".week-stream");
+    if (stream && state.selectedDay && state.selectedDay > start) {
+      var col = stream.querySelector('[data-day="' + state.selectedDay + '"]');
+      if (col) stream.scrollLeft = col.offsetLeft;
+    }
   }
 
   function renderMonth() {
@@ -705,7 +739,11 @@
       state.selectedDay = state.cursor;
       state.agendaFocus = state.cursor;
     } else if (isMobile() && state.view === "week") {
-      state.cursor = addDays(state.cursor || todayYmd(), dir * 7);
+      var stream = document.querySelector(".week-stream");
+      if (stream) {
+        stream.scrollBy({ left: dir * stream.clientWidth, behavior: "smooth" });
+        return;
+      }
     } else if (state.view === "week") {
       state.cursor = addDays(startOfWeek(state.cursor), dir * 7);
     } else {
@@ -722,6 +760,8 @@
     state.agendaFocus = todayYmd();
     state.selectedEventId = null;
     renderAll(true);
+    var stream = document.querySelector(".week-stream");
+    if (stream) stream.scrollLeft = 0;
   }
 
   function openDay(ymd) {

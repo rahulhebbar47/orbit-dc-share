@@ -1208,11 +1208,16 @@ a:hover { color: #fff; }
   .drawer { width: 100vw; }
   .mast-meta { gap: 12px; }
   .period { white-space: normal; }
-  .week {
-    grid-template-columns: repeat(7, minmax(78vw, 1fr));
+  .week,
+  .week.week-stream {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 78vw;
     scroll-snap-type: x mandatory;
-    overflow: auto;
+    overflow-x: auto;
     min-height: 560px;
+    -webkit-overflow-scrolling: touch;
   }
   .week .day { scroll-snap-align: start; }
 }
+
