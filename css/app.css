@@ -204,7 +204,91 @@ a:hover { color: #fff; }
   justify-content: space-between;
   gap: 16px;
   margin-bottom: 12px;
+  transition: margin-bottom 160ms var(--ease);
 }
+
+.filterbar.is-collapsed .filterbar-meta {
+  margin-bottom: 0;
+}
+
+.filterbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.filters-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filters-toggle .chev {
+  width: 10px;
+  height: 10px;
+  display: block;
+  transition: transform 160ms var(--ease);
+}
+
+.filterbar:not(.is-collapsed) .filters-toggle .chev {
+  transform: rotate(180deg);
+}
+
+.filterbar.no-motion .filters-blinds,
+.filterbar.no-motion .blinds-overlay i,
+.filterbar.no-motion .filterbar-meta,
+.filterbar.no-motion .filters-toggle .chev {
+  transition: none !important;
+}
+
+.filters-blinds {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 160ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filterbar.is-collapsed .filters-blinds {
+  grid-template-rows: 0fr;
+}
+
+.filters-blinds-inner {
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.blinds-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+}
+
+.blinds-overlay i {
+  flex: 1 1 0;
+  background: var(--bg);
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 140ms cubic-bezier(0.3, 0, 0.7, 1);
+}
+
+.filterbar.is-collapsed .blinds-overlay i {
+  transform: scaleY(1);
+}
+
+.blinds-overlay i:nth-child(1) { transition-delay: 0ms; }
+.blinds-overlay i:nth-child(2) { transition-delay: 10ms; }
+.blinds-overlay i:nth-child(3) { transition-delay: 20ms; }
+.blinds-overlay i:nth-child(4) { transition-delay: 30ms; }
+.blinds-overlay i:nth-child(5) { transition-delay: 40ms; }
+.blinds-overlay i:nth-child(6) { transition-delay: 50ms; }
+.blinds-overlay i:nth-child(7) { transition-delay: 60ms; }
+.blinds-overlay i:nth-child(8) { transition-delay: 70ms; }
+.blinds-overlay i:nth-child(9) { transition-delay: 80ms; }
+.blinds-overlay i:nth-child(10) { transition-delay: 90ms; }
 
 .showing {
   font-family: var(--font-mono);
@@ -911,6 +995,9 @@ a:hover { color: #fff; }
 }
 
 @media (max-width: 720px) {
+  .filterbar:not(.is-ready) .filters-blinds { grid-template-rows: 0fr; }
+  .filterbar:not(.is-ready) .filterbar-meta { margin-bottom: 0; }
+  .filterbar:not(.is-ready) .blinds-overlay i { transform: scaleY(1); }
   .toolbar { flex-direction: column; align-items: stretch; }
   .nav { flex-wrap: wrap; }
   .week {

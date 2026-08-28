@@ -27,6 +27,7 @@
     cursor: todayYmd(),
     selectedDay: null,
     selectedEventId: null,
+    filtersOpen: false,
     filters: {
       cats: new Set(),
       neighborhoods: new Set(),
@@ -42,6 +43,9 @@
     filters: $("filters"),
     showing: $("showing"),
     btnClear: $("btn-clear"),
+    btnFilters: $("btn-filters"),
+    filterbar: $("filterbar"),
+    filtersToggleLabel: $("filters-toggle-label"),
     period: $("period"),
     updated: $("updated"),
     stat: $("stat"),
@@ -598,6 +602,35 @@
     if (kind !== "clear") renderAll();
   }
 
+  function isMobile() {
+    return window.matchMedia("(max-width: 720px)").matches;
+  }
+
+  function setFiltersOpen(open, persist) {
+    state.filtersOpen = !!open;
+    el.filterbar.classList.toggle("is-collapsed", !state.filtersOpen);
+    el.filterbar.classList.add("is-ready");
+    el.btnFilters.setAttribute("aria-expanded", state.filtersOpen ? "true" : "false");
+    el.filtersToggleLabel.textContent = state.filtersOpen ? "HIDE" : "FILTERS";
+    if (persist !== false) {
+      try { localStorage.setItem("orbit-filters", state.filtersOpen ? "1" : "0"); } catch (e) {}
+    }
+  }
+
+  function initFiltersOpen() {
+    el.filterbar.classList.add("no-motion");
+    var stored = null;
+    try { stored = localStorage.getItem("orbit-filters"); } catch (e) {}
+    if (stored === "1") setFiltersOpen(true, false);
+    else if (stored === "0") setFiltersOpen(false, false);
+    else setFiltersOpen(!isMobile(), false);
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        el.filterbar.classList.remove("no-motion");
+      });
+    });
+  }
+
   function bind() {
     el.btnWeek.addEventListener("click", function () { setView("week"); });
     el.btnMonth.addEventListener("click", function () { setView("month"); });
@@ -606,6 +639,9 @@
     el.btnNext.addEventListener("click", function () { step(1); });
     el.scrim.addEventListener("click", closeDrawer);
     el.btnClear.addEventListener("click", clearFilters);
+    el.btnFilters.addEventListener("click", function () {
+      setFiltersOpen(!state.filtersOpen);
+    });
 
     el.filters.addEventListener("click", function (e) {
       var btn = e.target.closest("[data-filter]");
@@ -667,5 +703,6 @@
 
   readUrl();
   bind();
+  initFiltersOpen();
   load().then(renderAll);
 })();
