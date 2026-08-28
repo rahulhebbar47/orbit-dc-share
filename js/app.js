@@ -249,9 +249,9 @@
     var params;
     try { params = new URLSearchParams(location.search); } catch (e) { return; }
     var view = params.get("view");
-    if (view === "month" || view === "week" || view === "agenda") {
-      state.view = view;
-    }
+    if (view === "month") state.view = "month";
+    else if (view === "week") state.view = "week";
+    /* agenda is in-session only; week is the default */
     paramList(params, "cat").forEach(function (v) {
       v = v.toLowerCase();
       if (CAT_KEYS.indexOf(v) >= 0) state.filters.cats.add(v);
@@ -270,8 +270,6 @@
     state.filters.neighborhoods.forEach(function (v) { params.append("hood", v); });
     state.filters.costs.forEach(function (v) { params.append("cost", v); });
     if (state.view === "month") params.set("view", "month");
-    if (state.view === "agenda") params.set("view", "agenda");
-    if (state.view === "week" && isMobile()) params.set("view", "week");
     var qs = params.toString();
     var next = location.pathname + (qs ? "?" + qs : "") + location.hash;
     if (location.pathname + location.search + location.hash !== next) {
